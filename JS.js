@@ -6,3 +6,5 @@ const viewer = new Viewer({
   container: document.querySelector('#viewer'),
   panorama: 'path/to/panorama.jpg'
 });
+
+
