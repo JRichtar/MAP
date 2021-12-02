@@ -6,10 +6,13 @@ var app = {
              container: document.querySelector('#viewer'),
              panorama: 'path/to/panorama.jpg',
              });
-	fetch("test.json").then((response) => {
-			return response.json();
-		}).then((json) => {
-			app.rooms = json;
-		})
+	    "rooms": null,
+		"load": function() {
+		   fetch("test.json").then((response) => {
+			   return response.json();
+		    }).then((json) => {
+			   app.rooms = json;
+		    })
 }
-const viewers = JSON.parse(text);
+
+window.addEventListener("load", app.load);
