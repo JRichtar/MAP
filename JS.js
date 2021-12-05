@@ -5,6 +5,12 @@ var app = {
 	const viewer = new Viewer({
              container: document.querySelector('#viewer'),
              panorama: 'path/to/panorama.jpg',
+              plugins    : [
+                        PhotoSphereViewer.MarkersPlugin,
+                        [PhotoSphereViewer.VirtualTourPlugin, {
+                        positionMode: PhotoSphereViewer.VirtualTourPlugin.MODE_GPS,
+                        renderMode  : PhotoSphereViewer.VirtualTourPlugin.MODE_3D,
+                        }],
              });
 	    "rooms": null,
 		"load": function() {
