@@ -14,18 +14,18 @@ var app = {
              });
 	    "comments": null,
 		"load": function() {
-		   fetch("rooms.json").then((response) => {
+		   fetch("comments.json").then((response) => {
 			   return response.json();
 		    }).then((json) => {
-			   app.rooms = json;
+			   app.comments = json;
 		    }
-		   nodes : null
-		  "loadNodes": function() {
-		   fetch("nodes.json").then((response) => {
+		 nodes : null
+		 "loadNodes": function() {
+		 fetch("nodes.json").then((response) => {
 			   return response.json();
-		    }).then((json) => {
-			   app.nodes = json;
-		    }
+		 }).then((json) => {
+			  app.nodes = json;
+		 }
 
 }
 window.addEventListener("load", app.load);
