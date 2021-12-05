@@ -12,13 +12,23 @@ var app = {
                         renderMode  : PhotoSphereViewer.VirtualTourPlugin.MODE_3D,
                         }],
              });
-	    "rooms": null,
+	    "comments": null,
 		"load": function() {
-		   fetch("test.json").then((response) => {
+		   fetch("rooms.json").then((response) => {
 			   return response.json();
 		    }).then((json) => {
 			   app.rooms = json;
-		    })
-}
+		    }
+		   nodes : null
+		  "loadNodes": function() {
+		   fetch("nodes.json").then((response) => {
+			   return response.json();
+		    }).then((json) => {
+			   app.nodes = json;
+		    }
 
+}
 window.addEventListener("load", app.load);
+window.addEventListener("loadNodes", app.load);
+var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
+virtualTour.setNodes(nodes)		    
