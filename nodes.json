@@ -7,15 +7,8 @@
 }
 2{
 	"id" : "2",
-	"panorama" : "002.rec.jpg",
+	"panorama" : "004.rec.jpg",
 	"name" : "testing node2",
 	"position ": "[-100.156292, 25.666446, 2]",
-	"links" : "[ { nodeId: '1' }]",
-}
-2{
-	"id" : "3",
-	"panorama" : "002.rec.jpg",
-	"name" : "testing node2",
-	"position ": "[-90.156292, 25.666446, 2]",
 	"links" : "[ { nodeId: '1' }]",
 }
