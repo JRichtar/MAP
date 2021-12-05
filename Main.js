@@ -1,8 +1,7 @@
 // JavaScript Document
 
 import { Viewer } from 'photo-sphere-viewer';
-var app = {
-	const viewer = new Viewer({
+const viewer = new Viewer({
              container: document.querySelector('#viewer'),
              panorama: 'path/to/panorama.jpg',
               plugins    : [
@@ -12,6 +11,8 @@ var app = {
                         renderMode  : PhotoSphereViewer.VirtualTourPlugin.MODE_3D,
                         }],
              });
+var app = {
+	
 	    "comments": null,
 		"load": function() {
 		   fetch("comments.json").then((response) => {
@@ -26,9 +27,8 @@ var app = {
 		 }).then((json) => {
 			  app.nodes = json;
 		 }
-
 }
 window.addEventListener("load", app.load);
-window.addEventListener("loadNodes", app.load);
+window.addEventListener("load", app.loadNodes);
 var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
-virtualTour.setNodes(nodes)		    
+virtualTour.setNodes(nodes)
