@@ -2,13 +2,15 @@
 	"id" : "1",
 	"panorama" : "001.rec.jpg",
 	"name" : "testing node",
-	"position ": "[-80.156292, 25.666446, 2]",
-	"links" : "[ { nodeId: '2' } {nodeId : '3'}]",
+	"x": "1500",
+    "y": "780",
+	"links" : "[ { nodeId: '2' }]",
 }
 2{
 	"id" : "2",
 	"panorama" : "004.rec.jpg",
 	"name" : "testing node2",
-	"position ": "[-100.156292, 25.666446, 2]",
+	"x" : "1000",
+	"y" : " 720",
 	"links" : "[ { nodeId: '1' }]",
 }

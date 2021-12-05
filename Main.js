@@ -31,4 +31,4 @@ var app = {
 window.addEventListener("load", app.load);
 window.addEventListener("load", app.loadNodes);
 var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
-virtualTour.setNodes(nodes)
+virtualTour.setNodes(nodes),
