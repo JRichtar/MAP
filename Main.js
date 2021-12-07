@@ -13,13 +13,13 @@ const viewer = new Viewer({
              });
 var app = {
 	
-	    "comments": null,
-		"load": function() {
-		   fetch("comments.json").then((response) => {
-			   return response.json();
-		    }).then((json) => {
-			   app.comments = json;
-		    }
+	   // "comments": null,
+	   //	"load": function() {
+	   //	   fetch("comments.json").then((response) => {
+	   //		   return response.json();
+	  //	    }).then((json) => {
+	 //		   app.comments = json;
+	//	    }
 		 nodes : null
 		 "loadNodes": function() {
 		 fetch("nodes.json").then((response) => {
@@ -28,7 +28,7 @@ var app = {
 			  app.nodes = json;
 		 }
 }
-window.addEventListener("load", app.load);
+//window.addEventListener("load", app.load);
 window.addEventListener("load", app.loadNodes);
 var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
 virtualTour.setNodes(nodes)
