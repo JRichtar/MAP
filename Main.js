@@ -1,26 +1,32 @@
-// JavaScript Document
-
-import { Viewer } from 'photo-sphere-viewer';
-const viewer = new Viewer({
-             container: document.querySelector('#viewer'),
-             panorama: 'path/to/panorama.jpg',
-              plugins    : [
-                        PhotoSphereViewer.MarkersPlugin,
-                        [PhotoSphereViewer.VirtualTourPlugin, {
-                        positionMode: PhotoSphereViewer.VirtualTourPlugin.MODE_GPS,
-                        renderMode  : PhotoSphereViewer.VirtualTourPlugin.MODE_3D,
-                        }],
-             });
 var app = {
-		 nodes : null
-		 "loadNodes": function() {
-		 fetch("nodes.json").then((response) => {
-			   return response.json();
-		 }).then((json) => {
-			  app.nodes = json;
-		 }
+	nodes: null,
+	viewer: null,
+	tour: null,
+
+	init: function() {
+		app.viewer = new PhotoSphereViewer.Viewer({
+			container: document.querySelector('#viewer'),
+			panorama: '001.rec.jpg',
+			plugins: [
+				PhotoSphereViewer.MarkersPlugin,
+				[PhotoSphereViewer.VirtualTourPlugin, {
+					positionMode: PhotoSphereViewer.VirtualTourPlugin.MODE_GPS,
+					renderMode: PhotoSphereViewer.VirtualTourPlugin.MODE_3D,
+				}],
+			],
+		});
+
+		app.tour = app.viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
+		app.loadNodes();
+	},
+	loadNodes: function() {
+		fetch("nodes.json").then((response) => {
+			return response.json();
+		}).then((json) => {
+			app.nodes = json;
+			app.tour.setNodes(app.nodes);
+		});
+	}
 }
 //window.addEventListener("load", app.load);
-window.addEventListener("load", app.loadNodes);
-var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
-virtualTour.setNodes(app.nodes)
+window.addEventListener("load", app.init);

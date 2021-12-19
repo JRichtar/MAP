@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang='cs'>
   <head>
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset='utf-8'>
-    <meta name='description' content=''>
-    <meta name='keywords' content=''>
-    <meta name='author' content=''>
-    <meta name='robots' content='all'>
+    <title>Virtuální prohlídka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='utf-8' />
+    <meta name='description' content='' />
+    <meta name='keywords' content='' />
+    <meta name='author' content='' />
+    <meta name='robots' content='all' />
     <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
-    <link href='/favicon.png' rel='shortcut icon' type='image/png'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css"/>
-    <link rel="stylesheet" href="styly.css">
-    <link rel="script" href="Main.js">
+    <link href='/favicon.png' rel='shortcut icon' type='image/png' />
+
+    <!-- Photo sphere viewer css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/virtual-tour.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.min.css" />
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="styly.css" />
+
+    <!-- Photo sphere viewer js -->
+    <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uevent@2/browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/virtual-tour.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.min.js"></script>
+
+    <!-- Our JS -->
+    <script src="Main.js"></script>
   </head>
   <body>
-            <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/uevent@2/browser.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
-            <div id="viewer" style="width: 100vw; height: 100vh;"></div>
+    <div id="viewer" style="width: 100vw; height: 100vh;"></div>
   </body>
 </html>
