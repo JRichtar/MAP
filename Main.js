@@ -28,5 +28,4 @@ var app = {
 		});
 	}
 }
-//window.addEventListener("load", app.load);
 window.addEventListener("load", app.init);
