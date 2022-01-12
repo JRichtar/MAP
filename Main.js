@@ -28,10 +28,10 @@ var app = {
                     json[i].links[j].latitude = json[i].links[j].latitude*(Math.PI/180);
                     json[i].links[j].longitude = json[i].links[j].longitude*(Math.PI/180);
                 }
-                for (let j = 0; j<json[i].markers.length; j++) {
+               /* for (let j = 0; j<json[i].markers.length; j++) {
                     json[i].markers[j].latitude = json[i].markers[j].latitude*(Math.PI/180);
                     json[i].markers[j].longitude = json[i].markers[j].longitude*(Math.PI/180);
-                }
+                }  */
             }
             app.nodes = json;
             app.tour.setNodes(app.nodes);

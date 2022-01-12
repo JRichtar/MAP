@@ -3,12 +3,112 @@
 		"id" : "10",
 		"panorama" : "Recepce/010.rec.jpg",
 		"name" : "ten",
-		"links": [  { "nodeId": "13", "latitude":0, "longitude":120.5 } ]
+		"links": [  { "nodeId": "13", "latitude": 0, "longitude": 120.5 },
+					{ "nodeId": "11", "latitude": -8, "longitude": 207.5 },
+					{ "nodeId": "8", "latitude": -5, "longitude": 25 } ]
  	},
 	{
 		"id" : "13",
 	 	"panorama" : "Recepce/013.rec.jpg",
 	 	"name" : "thirteen",
-	 	"links": [ { "nodeId": "10", "latitude":0, "longitude":2.5 } ]
+	 	"links": [ { "nodeId": "10", "latitude": 0, "longitude": 2.5 },
+	 	 		   { "nodeId": "14", "latitude": 0, "longitude": 181.25 } ]
+ 	},
+ 	{
+		"id" : "14",
+	 	"panorama" : "Recepce/014.rec.jpg",
+	 	"name" : "fourteen",
+	 	"links": [ { "nodeId": "13", "latitude": 5, "longitude": 3.5 },
+	 			   { "nodeId": "15", "latitude": 5, "longitude": 120 },
+	 			   { "nodeId": "16", "latitude": 1, "longitude": 215 } ]
+ 	},
+ 	{
+		"id" : "15",
+	 	"panorama" : "Recepce/015.rec.jpg",
+	 	"name" : "fifteen",
+	 	"links": [ { "nodeId": "14", "latitude": 0, "longitude": 230 },
+	 			   { "nodeId": "16", "latitude": 0, "longitude": 135 } ]
+ 	},
+ 	{
+		"id" : "16",
+	 	"panorama" : "Recepce/016.rec.jpg",
+	 	"name" : "sixteen",
+	 	"links": [ { "nodeId": "14", "latitude": 2, "longitude": 110 },
+	 			   { "nodeId": "15", "latitude": 0, "longitude": 175 } ]
+ 	},
+ 	{
+		"id" : "11",
+	 	"panorama" : "Recepce/011.rec.jpg",
+	 	"name" : "eleven",
+	 	"links": [ { "nodeId": "10", "latitude": -9, "longitude": 0 },
+	 			   { "nodeId": "12", "latitude": -7, "longitude": 180 } ]
+ 	},
+ 	{
+		"id" : "12",
+	 	"panorama" : "Recepce/012.rec.jpg",
+	 	"name" : "twelve",
+	 	"links": [ { "nodeId": "11", "latitude": -6, "longitude": 177.5 } ]
+ 	},
+ 	{
+		"id" : "8",
+	 	"panorama" : "Recepce/008.rec.jpg",
+	 	"name" : "eight",
+	 	"links": [ { "nodeId": "10", "latitude": -5, "longitude": 152.5 },
+	 			   { "nodeId": "9", "latitude": -12, "longitude": 235 },
+	 			   { "nodeId": "7", "latitude": -14, "longitude": -30 } ]
+ 	},
+ 	{
+		"id" : "9",
+	 	"panorama" : "Recepce/009.rec.jpg",
+	 	"name" : "nine",
+	 	"links": [ { "nodeId": "8", "latitude": -15, "longitude": 90 } ]
+ 	},
+ 	{
+		"id" : "7",
+	 	"panorama" : "Recepce/007.rec.jpg",
+	 	"name" : "seven",
+	 	"links": [ { "nodeId": "8", "latitude": -12, "longitude": 290 },
+	 			   { "nodeId": "6", "latitude": -6, "longitude": 110 } ]
+ 	},
+ 	{
+		"id" : "6",
+	 	"panorama" : "Recepce/006.rec.jpg",
+	 	"name" : "six",
+	 	"links": [ { "nodeId": "5", "latitude": -10, "longitude": 265 },
+	 			   { "nodeId": "7", "latitude": -6, "longitude": 85 } ]
+ 	},
+ 	{
+		"id" : "5",
+	 	"panorama" : "Recepce/005.rec.jpg",
+	 	"name" : "five",
+	 	"links": [ { "nodeId": "4", "latitude": 0, "longitude": 90 },
+	 			   { "nodeId": "6", "latitude": -4, "longitude": 0 } ]
+ 	},
+ 	{
+		"id" : "4",
+	 	"panorama" : "Recepce/004.rec.jpg",
+	 	"name" : "four",
+	 	"links": [ { "nodeId": "3", "latitude": -2, "longitude": -37 },
+	 			   { "nodeId": "5", "latitude": -6, "longitude": 130 } ]
+ 	},
+ 	{
+		"id" : "3",
+	 	"panorama" : "Recepce/003.rec.jpg",
+	 	"name" : "three",
+	 	"links": [ { "nodeId": "2", "latitude": -10, "longitude": 25 },
+	 			   { "nodeId": "4", "latitude": -7, "longitude": 207.5 } ]
+ 	},
+ 	{
+		"id" : "2",
+	 	"panorama" : "Recepce/002.rec.jpg",
+	 	"name" : "two",
+	 	"links": [ { "nodeId": "1", "latitude": -10, "longitude": 67.5 },
+	 			   { "nodeId": "3", "latitude": -7, "longitude": 250 } ]
+ 	},
+ 	{
+		"id" : "1",
+	 	"panorama" : "Recepce/001.rec.jpg",
+	 	"name" : "one",
+	 	"links": [ { "nodeId": "2", "latitude": -9, "longitude": 87.5 } ]
  	}
 ]
