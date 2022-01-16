@@ -1,114 +1,207 @@
 [
-	{
-		"id" : "10",
-		"panorama" : "Recepce/010.rec.jpg",
-		"name" : "ten",
-		"links": [  { "nodeId": "13", "latitude": 0, "longitude": 120.5 },
-					{ "nodeId": "11", "latitude": -8, "longitude": 207.5 },
-					{ "nodeId": "8", "latitude": -5, "longitude": 25 } ]
- 	},
-	{
-		"id" : "13",
-	 	"panorama" : "Recepce/013.rec.jpg",
-	 	"name" : "thirteen",
-	 	"links": [ { "nodeId": "10", "latitude": 0, "longitude": 2.5 },
-	 	 		   { "nodeId": "14", "latitude": 0, "longitude": 181.25 } ]
- 	},
  	{
-		"id" : "14",
-	 	"panorama" : "Recepce/014.rec.jpg",
-	 	"name" : "fourteen",
-	 	"links": [ { "nodeId": "13", "latitude": 5, "longitude": 3.5 },
-	 			   { "nodeId": "15", "latitude": 5, "longitude": 120 },
-	 			   { "nodeId": "16", "latitude": 1, "longitude": 215 } ]
- 	},
- 	{
-		"id" : "15",
-	 	"panorama" : "Recepce/015.rec.jpg",
-	 	"name" : "fifteen",
-	 	"links": [ { "nodeId": "14", "latitude": 0, "longitude": 230 },
-	 			   { "nodeId": "16", "latitude": 0, "longitude": 135 } ]
- 	},
- 	{
-		"id" : "16",
-	 	"panorama" : "Recepce/016.rec.jpg",
-	 	"name" : "sixteen",
-	 	"links": [ { "nodeId": "14", "latitude": 2, "longitude": 110 },
-	 			   { "nodeId": "15", "latitude": 0, "longitude": 175 } ]
- 	},
- 	{
-		"id" : "11",
-	 	"panorama" : "Recepce/011.rec.jpg",
-	 	"name" : "eleven",
-	 	"links": [ { "nodeId": "10", "latitude": -9, "longitude": 0 },
-	 			   { "nodeId": "12", "latitude": -7, "longitude": 180 } ]
- 	},
- 	{
-		"id" : "12",
-	 	"panorama" : "Recepce/012.rec.jpg",
-	 	"name" : "twelve",
-	 	"links": [ { "nodeId": "11", "latitude": -6, "longitude": 177.5 } ]
- 	},
- 	{
-		"id" : "8",
-	 	"panorama" : "Recepce/008.rec.jpg",
-	 	"name" : "eight",
-	 	"links": [ { "nodeId": "10", "latitude": -5, "longitude": 152.5 },
-	 			   { "nodeId": "9", "latitude": -12, "longitude": 235 },
-	 			   { "nodeId": "7", "latitude": -14, "longitude": -30 } ]
- 	},
- 	{
-		"id" : "9",
-	 	"panorama" : "Recepce/009.rec.jpg",
-	 	"name" : "nine",
-	 	"links": [ { "nodeId": "8", "latitude": -15, "longitude": 90 } ]
- 	},
- 	{
-		"id" : "7",
-	 	"panorama" : "Recepce/007.rec.jpg",
-	 	"name" : "seven",
-	 	"links": [ { "nodeId": "8", "latitude": -12, "longitude": 290 },
-	 			   { "nodeId": "6", "latitude": -6, "longitude": 110 } ]
- 	},
- 	{
-		"id" : "6",
-	 	"panorama" : "Recepce/006.rec.jpg",
-	 	"name" : "six",
-	 	"links": [ { "nodeId": "5", "latitude": -10, "longitude": 265 },
-	 			   { "nodeId": "7", "latitude": -6, "longitude": 85 } ]
- 	},
- 	{
-		"id" : "5",
-	 	"panorama" : "Recepce/005.rec.jpg",
-	 	"name" : "five",
-	 	"links": [ { "nodeId": "4", "latitude": 0, "longitude": 90 },
-	 			   { "nodeId": "6", "latitude": -4, "longitude": 0 } ]
- 	},
- 	{
-		"id" : "4",
-	 	"panorama" : "Recepce/004.rec.jpg",
-	 	"name" : "four",
-	 	"links": [ { "nodeId": "3", "latitude": -2, "longitude": -37 },
-	 			   { "nodeId": "5", "latitude": -6, "longitude": 130 } ]
- 	},
- 	{
-		"id" : "3",
-	 	"panorama" : "Recepce/003.rec.jpg",
-	 	"name" : "three",
-	 	"links": [ { "nodeId": "2", "latitude": -10, "longitude": 25 },
-	 			   { "nodeId": "4", "latitude": -7, "longitude": 207.5 } ]
- 	},
- 	{
-		"id" : "2",
-	 	"panorama" : "Recepce/002.rec.jpg",
-	 	"name" : "two",
-	 	"links": [ { "nodeId": "1", "latitude": -10, "longitude": 67.5 },
-	 			   { "nodeId": "3", "latitude": -7, "longitude": 250 } ]
- 	},
- 	{
-		"id" : "1",
-	 	"panorama" : "Recepce/001.rec.jpg",
+		"id" : "1s",
+	 	"panorama" : "Stacionar/001V.jpg",
 	 	"name" : "one",
-	 	"links": [ { "nodeId": "2", "latitude": -9, "longitude": 87.5 } ]
+	 	"links": [ { "nodeId": "2s", "latitude": -7, "longitude": 280 },
+                   { "nodeId": "8o", "latitude": -3, "longitude": 5 } ]
+ 	},
+    {
+		"id" : "2s",
+	 	"panorama" : "Stacionar/002V.jpg",
+	 	"name" : "two",
+	 	"links": [ { "nodeId": "1s", "latitude": -3, "longitude": 110 },
+                   { "nodeId": "3s", "latitude": -4, "longitude": 326 } ]
+ 	},
+    {
+		"id" : "3s",
+	 	"panorama" : "Stacionar/003V.jpg",
+	 	"name" : "three",
+	 	"links": [ { "nodeId": "2s", "latitude": -5, "longitude": 130 },
+                   { "nodeId": "4s", "latitude": 5, "longitude": 40 } ]
+ 	},
+    {
+		"id" : "4s",
+	 	"panorama" : "Stacionar/004S.jpg",
+	 	"name" : "four",
+	 	"links": [ { "nodeId": "3s", "latitude": 0, "longitude": 89 },
+                   { "nodeId": "5s", "latitude": 0, "longitude": 271 } ]
+ 	},
+    {
+		"id" : "5s",
+	 	"panorama" : "Stacionar/005S.jpg",
+	 	"name" : "five",
+	 	"links": [ { "nodeId": "4s", "latitude": 3, "longitude": 28 } ]
+ 	},
+    {
+		"id" : "1o",
+	 	"panorama" : "OckovaciCentrum/001M.jpg",
+	 	"name" : "one",
+	 	"links": [ { "nodeId": "2o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "4o", "latitude": -9, "longitude": 100 } ]
+ 	},
+    {
+		"id" : "2o",
+	 	"panorama" : "OckovaciCentrum/002M.jpg",
+	 	"name" : "two",
+	 	"links": [ { "nodeId": "1o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "3o", "latitude": -9, "longitude": 100 } ]
+ 	},
+    {
+		"id" : "3o",
+	 	"panorama" : "OckovaciCentrum/003M.jpg",
+	 	"name" : "three",
+	 	"links": [ { "nodeId": "2o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "4o", "latitude": -9, "longitude": 100 } ]
+ 	},
+    {
+		"id" : "4o",
+	 	"panorama" : "OckovaciCentrum/004CH.jpg",
+	 	"name" : "four",
+	 	"links": [ { "nodeId": "1o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "3o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "5o", "latitude": -9, "longitude": 100 } ]
+ 	},
+    {
+		"id" : "5o",
+	 	"panorama" : "OckovaciCentrum/005CH.jpg",
+	 	"name" : "five",
+	 	"links": [ { "nodeId": "6o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "4o", "latitude": -9, "longitude": 100 } ]
+ 	},
+    {
+		"id" : "6o",
+	 	"panorama" : "OckovaciCentrum/006CH.jpg",
+	 	"name" : "six",
+	 	"links": [ { "nodeId": "5o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "7o", "latitude": -9, "longitude": 100 } ]
+ 	},
+    {
+		"id" : "7o",
+	 	"panorama" : "OckovaciCentrum/007R.jpg",
+	 	"name" : "seven",
+	 	"links": [ { "nodeId": "6o", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "6r", "latitude": -9, "longitude": 0 },
+                   { "nodeId": "8o", "latitude": -9, "longitude": 100 } ]
+ 	},
+    {
+		"id" : "8o",
+	 	"panorama" : "OckovaciCentrum/008V.jpg",
+	 	"name" : "eight",
+	 	"links": [ { "nodeId": "7o", "latitude": 1, "longitude": 0 },
+                   { "nodeId": "1s", "latitude": 0, "longitude": 267.5 },
+                   { "nodeId": "9o", "latitude": -3, "longitude": 160 } ]
+ 	},
+    {
+		"id" : "9o",
+	 	"panorama" : "OckovaciCentrum/009V.jpg",
+	 	"name" : "nine",
+	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 } ]
+ 	},
+    {
+		"id" : "1r",
+	 	"panorama" : "RehabilitacniCentrum/001CHl.jpg",
+	 	"name" : "one",
+	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 150 },
+                   { "nodeId": "13r", "latitude": -9, "longitude": 200} ]
+                   
+ 	},
+    {
+		"id" : "2r",
+	 	"panorama" : "RehabilitacniCentrum/002CHl.jpg",
+	 	"name" : "two",
+	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 150 },
+                   { "nodeId": "10r", "latitude": -9, "longitude": 200} ]
+ 	},
+    {
+		"id" : "3r",
+	 	"panorama" : "RehabilitacniCentrum/003CHl.jpg",
+	 	"name" : "three",
+	 	"links": [ { "nodeId": "1r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "2r", "latitude": -9, "longitude": 100 },
+                   { "nodeId": "4r", "latitude": -9, "longitude": 125 },
+                   { "nodeId": "14r", "latitude": -9, "longitude": 150 },
+                   { "nodeId": "15r", "latitude": -9, "longitude": 200} ]
+ 	},
+    {
+		"id" : "4r",
+	 	"panorama" : "RehabilitacniCentrum/004CHl.jpg",
+	 	"name" : "four",
+	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "6r", "latitude": -9, "longitude": 100 }]
+ 	},
+    {
+		"id" : "5r",
+	 	"panorama" : "RehabilitacniCentrum/004R.jpg",
+	 	"name" : "six",
+	 	"links": [ { "nodeId": "6r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "7r", "latitude": -9, "longitude": 100 }]
+ 	},
+    {
+		"id" : "6r",
+	 	"panorama" : "RehabilitacniCentrum/005R.jpg",
+	 	"name" : "five",
+	 	"links": [ { "nodeId": "4r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "5r", "latitude": -9, "longitude": 100 },
+                   { "nodeId": "7o", "latitude": -9, "longitude": 125 }]
+ 	},
+    {
+		"id" : "7r",
+	 	"panorama" : "RehabilitacniCentrum/006SPl.jpg",
+	 	"name" : "seven",
+	 	"links": [ { "nodeId": "5r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "8r", "latitude": -9, "longitude": 100 }]
+ 	},
+    {
+		"id" : "8r",
+	 	"panorama" : "RehabilitacniCentrum/007SPl.jpg",
+	 	"name" : "eight",
+	 	"links": [ { "nodeId": "7r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "9r", "latitude": -9, "longitude": 100 }]
+ 	},
+    {
+		"id" : "9r",
+	 	"panorama" : "RehabilitacniCentrum/008SPl.jpg",
+	 	"name" : "nine",
+	 	"links": [ { "nodeId": "8r", "latitude": -9, "longitude": 87.5 }]
+ 	},
+    {
+		"id" : "10r",
+	 	"panorama" : "RehabilitacniCentrum/101B.jpg",
+	 	"name" : "ten",
+	 	"links": [ { "nodeId": "2r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "11r", "latitude": -9, "longitude": 100 }]
+ 	},
+    {
+		"id" : "11r",
+	 	"panorama" : "RehabilitacniCentrum/102B.jpg",
+	 	"name" : "eleven",
+	 	"links": [ { "nodeId": "10r", "latitude": -9, "longitude": 87.5 },
+                   { "nodeId": "12r", "latitude": -9, "longitude": 100 }]
+ 	},
+    {
+		"id" : "12r",
+	 	"panorama" : "RehabilitacniCentrum/103B.jpg",
+	 	"name" : "twelve",
+	 	"links": [ { "nodeId": "11r", "latitude": -9, "longitude": 87.5 }]
+ 	},
+    {
+		"id" : "13r",
+	 	"panorama" : "RehabilitacniCentrum/104E.jpg",
+	 	"name" : "thirteen",
+	 	"links": [ { "nodeId": "1r", "latitude": -9, "longitude": 87.5 }]
+ 	},
+    {
+		"id" : "14r",
+	 	"panorama" : "RehabilitacniCentrum/105R.jpg",
+	 	"name" : "fourteen",
+	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 87.5 }]
+ 	},
+    {
+		"id" : "15r",
+	 	"panorama" : "RehabilitacniCentrum/106T.jpg",
+	 	"name" : "fifteen",
+	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 87.5 }]
  	}
+    
 ]
