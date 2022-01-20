@@ -1,93 +1,207 @@
 [
+	{
+		"id" : "10",
+		"panorama" : "Recepce/010.rec.jpg",
+		"name" : "(1) Recepce - 10",
+		"links": [  { "nodeId": "13", "latitude": 0, "longitude": 120.5 },
+					{ "nodeId": "11", "latitude": -8, "longitude": 207.5 },
+					{ "nodeId": "8", "latitude": -5, "longitude": 25 } ]
+ 	},
+	{
+		"id" : "13",
+	 	"panorama" : "Recepce/013.rec.jpg",
+	 	"name" : "(1) Recepce - 13",
+	 	"links": [ { "nodeId": "10", "latitude": 0, "longitude": 2.5 },
+	 	 		   { "nodeId": "14", "latitude": 0, "longitude": 181.25 } ]
+ 	},
+ 	{
+		"id" : "14",
+	 	"panorama" : "Recepce/014.rec.jpg",
+	 	"name" : "(1) Recepce - 14",
+	 	"links": [ { "nodeId": "13", "latitude": 5, "longitude": 3.5 },
+	 			   { "nodeId": "15", "latitude": 5, "longitude": 120 },
+	 			   { "nodeId": "16", "latitude": 1, "longitude": 215 } ]
+ 	},
+ 	{
+		"id" : "15",
+	 	"panorama" : "Recepce/015.rec.jpg",
+	 	"name" : "(1) Recepce - 15",
+	 	"links": [ { "nodeId": "14", "latitude": 0, "longitude": 230 },
+	 			   { "nodeId": "16", "latitude": 0, "longitude": 135 } ]
+ 	}, 
+ 	{ 
+		"id" : "16",
+	 	"panorama" : "Recepce/016.rec.jpg",
+	 	"name" : "(1) Recepce - 16",
+	 	"links": [ { "nodeId": "14", "latitude": 2, "longitude": 110 },
+	 			   { "nodeId": "15", "latitude": 0, "longitude": 175 },
+	 			   { "nodeId": "1s", "latitude": -3, "longitude": -5 } ]
+ 	},
+ 	{ 
+		"id" : "11",
+	 	"panorama" : "Recepce/011.rec.jpg",
+	 	"name" : "(1) Recepce - 11",
+	 	"links": [ { "nodeId": "10", "latitude": -9, "longitude": 0 },
+	 			   { "nodeId": "12", "latitude": -7, "longitude": 180 } ]
+ 	},
+ 	{
+		"id" : "12",
+	 	"panorama" : "Recepce/012.rec.jpg",
+	 	"name" : "(1) Recepce - 12",
+	 	"links": [ { "nodeId": "11", "latitude": -6, "longitude": 177.5 } ]
+ 	},
+ 	{
+		"id" : "8",
+	 	"panorama" : "Recepce/008.rec.jpg",
+	 	"name" : "(1) Recepce - 8",
+	 	"links": [ { "nodeId": "10", "latitude": -5, "longitude": 152.5 },
+	 			   { "nodeId": "9", "latitude": -12, "longitude": 235 },
+	 			   { "nodeId": "7", "latitude": -14, "longitude": -30 } ]
+ 	},
+ 	{
+		"id" : "9",
+	 	"panorama" : "Recepce/009.rec.jpg",
+	 	"name" : "(1) Recepce - 9",
+	 	"links": [ { "nodeId": "8", "latitude": -15, "longitude": 90 } ]
+ 	},
+ 	{
+		"id" : "7",
+	 	"panorama" : "Recepce/007.rec.jpg",
+	 	"name" : "(1) Recepce - 7",
+	 	"links": [ { "nodeId": "8", "latitude": -12, "longitude": 290 },
+	 			   { "nodeId": "6", "latitude": -6, "longitude": 110 } ]
+ 	},
+ 	{
+		"id" : "6",
+	 	"panorama" : "Recepce/006.rec.jpg",
+	 	"name" : "(1) Recepce - 6",
+	 	"links": [ { "nodeId": "5", "latitude": -10, "longitude": 265 },
+	 			   { "nodeId": "7", "latitude": -6, "longitude": 85 } ]
+ 	},
+ 	{
+		"id" : "5",
+	 	"panorama" : "Recepce/005.rec.jpg",
+	 	"name" : "(1) Recepce - 5",
+	 	"links": [ { "nodeId": "4", "latitude": 0, "longitude": 90 },
+	 			   { "nodeId": "6", "latitude": -4, "longitude": 0 } ]
+ 	},
+ 	{
+		"id" : "4",
+	 	"panorama" : "Recepce/004.rec.jpg",
+	 	"name" : "(1) Recepce - 4",
+	 	"links": [ { "nodeId": "3", "latitude": -2, "longitude": -37 },
+	 			   { "nodeId": "5", "latitude": -6, "longitude": 130 } ]
+ 	},
+ 	{
+		"id" : "3",
+	 	"panorama" : "Recepce/003.rec.jpg",
+	 	"name" : "(1) Recepce - 3",
+	 	"links": [ { "nodeId": "2", "latitude": -10, "longitude": 25 },
+	 			   { "nodeId": "4", "latitude": -7, "longitude": 207.5 } ]
+ 	},
+ 	{
+		"id" : "2",
+	 	"panorama" : "Recepce/002.rec.jpg",
+	 	"name" : "(1) Recepce - 2",
+	 	"links": [ { "nodeId": "1", "latitude": -10, "longitude": 67.5 },
+	 			   { "nodeId": "3", "latitude": -7, "longitude": 250 } ]
+ 	},
+ 	{
+		"id" : "1",
+	 	"panorama" : "Recepce/001.rec.jpg",
+	 	"name" : "(1) Recepce - 1",
+	 	"links": [ { "nodeId": "2", "latitude": -9, "longitude": 87.5 } ]
+ 	},
  	{
 		"id" : "1s",
 	 	"panorama" : "Stacionar/001V.jpg",
-	 	"name" : "one",
+	 	"name" : "(2) Stacionář - 1",
 	 	"links": [ { "nodeId": "2s", "latitude": -7, "longitude": 280 },
+	 			   { "nodeId": "16", "latitude": -9, "longitude": 100 },
                    { "nodeId": "8o", "latitude": -3, "longitude": 5 } ]
  	},
     {
 		"id" : "2s",
 	 	"panorama" : "Stacionar/002V.jpg",
-	 	"name" : "two",
+	 	"name" : "(2) Stacionář - 2",
 	 	"links": [ { "nodeId": "1s", "latitude": -3, "longitude": 110 },
                    { "nodeId": "3s", "latitude": -4, "longitude": 326 } ]
  	},
     {
 		"id" : "3s",
 	 	"panorama" : "Stacionar/003V.jpg",
-	 	"name" : "three",
+	 	"name" : "(2) Stacionář - 3",
 	 	"links": [ { "nodeId": "2s", "latitude": -5, "longitude": 130 },
                    { "nodeId": "4s", "latitude": 5, "longitude": 40 } ]
  	},
     {
 		"id" : "4s",
 	 	"panorama" : "Stacionar/004S.jpg",
-	 	"name" : "four",
+	 	"name" : "(2) Stacionář - 4",
 	 	"links": [ { "nodeId": "3s", "latitude": 0, "longitude": 89 },
                    { "nodeId": "5s", "latitude": 0, "longitude": 271 } ]
  	},
     {
 		"id" : "5s",
 	 	"panorama" : "Stacionar/005S.jpg",
-	 	"name" : "five",
+	 	"name" : "(2) Stacionář - 5",
 	 	"links": [ { "nodeId": "4s", "latitude": 3, "longitude": 28 } ]
  	},
     {
 		"id" : "1o",
 	 	"panorama" : "OckovaciCentrum/001M.jpg",
-	 	"name" : "one",
-	 	"links": [ { "nodeId": "2o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "4o", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(2) Očkovací centrum - 1",
+	 	"links": [ { "nodeId": "2o", "latitude": -24, "longitude": 255 },
+                   { "nodeId": "4o", "latitude": -4, "longitude": 205 } ]
  	},
     {
 		"id" : "2o",
 	 	"panorama" : "OckovaciCentrum/002M.jpg",
-	 	"name" : "two",
-	 	"links": [ { "nodeId": "1o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "3o", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(2) Očkovací centrum - 2",
+	 	"links": [ { "nodeId": "1o", "latitude": -28, "longitude": 45 },
+                   { "nodeId": "3o", "latitude": -32, "longitude": 220 } ]
  	},
     {
 		"id" : "3o",
 	 	"panorama" : "OckovaciCentrum/003M.jpg",
-	 	"name" : "three",
-	 	"links": [ { "nodeId": "2o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "4o", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(2) Očkovací centrum - 3",
+	 	"links": [ { "nodeId": "2o", "latitude": -28, "longitude": 50 },
+                   { "nodeId": "4o", "latitude": -3, "longitude": 110 } ]
  	},
     {
 		"id" : "4o",
 	 	"panorama" : "OckovaciCentrum/004CH.jpg",
-	 	"name" : "four",
-	 	"links": [ { "nodeId": "1o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "3o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "5o", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(2) Očkovací centrum - 4",
+	 	"links": [ { "nodeId": "1o", "latitude": 0, "longitude": 152.5 },
+                   { "nodeId": "3o", "latitude": 0, "longitude": 85 },
+                   { "nodeId": "5o", "latitude": -15, "longitude": -50 } ]
  	},
     {
 		"id" : "5o",
 	 	"panorama" : "OckovaciCentrum/005CH.jpg",
-	 	"name" : "five",
-	 	"links": [ { "nodeId": "6o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "4o", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(2) Očkovací centrum - 5",
+	 	"links": [ { "nodeId": "6o", "latitude": -9, "longitude": 0 },
+                   { "nodeId": "4o", "latitude": -24, "longitude": 70 } ]
  	},
     {
 		"id" : "6o",
 	 	"panorama" : "OckovaciCentrum/006CH.jpg",
-	 	"name" : "six",
-	 	"links": [ { "nodeId": "5o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "7o", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(2) Očkovací centrum - 6",
+	 	"links": [ { "nodeId": "5o", "latitude": -10, "longitude": 255 },
+                   { "nodeId": "7o", "latitude": -2, "longitude": -10 } ]
  	},
     {
 		"id" : "7o",
 	 	"panorama" : "OckovaciCentrum/007R.jpg",
-	 	"name" : "seven",
-	 	"links": [ { "nodeId": "6o", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "6r", "latitude": -9, "longitude": 0 },
-                   { "nodeId": "8o", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(2) Očkovací centrum - 7",
+	 	"links": [ { "nodeId": "6o", "latitude": -2, "longitude": 45 },
+                   { "nodeId": "6r", "latitude": -1, "longitude": 227.5 },
+                   { "nodeId": "8o", "latitude": -2, "longitude": -25 } ]
  	},
     {
 		"id" : "8o",
 	 	"panorama" : "OckovaciCentrum/008V.jpg",
-	 	"name" : "eight",
+	 	"name" : "(2) Očkovací centrum - 8",
 	 	"links": [ { "nodeId": "7o", "latitude": 1, "longitude": 0 },
                    { "nodeId": "1s", "latitude": 0, "longitude": 267.5 },
                    { "nodeId": "9o", "latitude": -3, "longitude": 160 } ]
@@ -95,113 +209,113 @@
     {
 		"id" : "9o",
 	 	"panorama" : "OckovaciCentrum/009V.jpg",
-	 	"name" : "nine",
+	 	"name" : "(2) Očkovací centrum - 9",
 	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 } ]
  	},
     {
 		"id" : "1r",
 	 	"panorama" : "RehabilitacniCentrum/001CHl.jpg",
-	 	"name" : "one",
-	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 150 },
-                   { "nodeId": "13r", "latitude": -9, "longitude": 200} ]
+	 	"name" : "(1) Rehabilitační centrum - 1",
+	 	"links": [ { "nodeId": "3r", "latitude": -28, "longitude": 250 },
+                   { "nodeId": "13r", "latitude": -2, "longitude": 125} ]
                    
  	},
     {
 		"id" : "2r",
 	 	"panorama" : "RehabilitacniCentrum/002CHl.jpg",
-	 	"name" : "two",
-	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 150 },
-                   { "nodeId": "10r", "latitude": -9, "longitude": 200} ]
+	 	"name" : "(1) Rehabilitační centrum - 2",
+	 	"links": [ { "nodeId": "3r", "latitude": -10, "longitude": 37 },
+                   { "nodeId": "10r", "latitude": 5, "longitude": 269} ]
  	},
     {
 		"id" : "3r",
 	 	"panorama" : "RehabilitacniCentrum/003CHl.jpg",
-	 	"name" : "three",
-	 	"links": [ { "nodeId": "1r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "2r", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "4r", "latitude": -9, "longitude": 125 },
-                   { "nodeId": "14r", "latitude": -9, "longitude": 150 },
-                   { "nodeId": "15r", "latitude": -9, "longitude": 200} ]
+	 	"name" : "(1) Rehabilitační centrum - 3",
+	 	"links": [ { "nodeId": "1r", "latitude": -15, "longitude": 7.5 },
+                   { "nodeId": "2r", "latitude": 9, "longitude": 267.5 },
+                   { "nodeId": "4r", "latitude": -9, "longitude": 170 },
+                   { "nodeId": "14r", "latitude": 3, "longitude": 59 },
+                   { "nodeId": "15r", "latitude": 3, "longitude": 153.5} ]
  	},
     {
 		"id" : "4r",
 	 	"panorama" : "RehabilitacniCentrum/004CHl.jpg",
-	 	"name" : "four",
-	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "6r", "latitude": -9, "longitude": 100 }]
+	 	"name" : "(1) Rehabilitační centrum - 4",
+	 	"links": [ { "nodeId": "3r", "latitude": -10, "longitude": 297 },
+                   { "nodeId": "6r", "latitude": -2, "longitude": 125 }]
  	},
     {
 		"id" : "5r",
 	 	"panorama" : "RehabilitacniCentrum/004R.jpg",
-	 	"name" : "six",
-	 	"links": [ { "nodeId": "6r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "7r", "latitude": -9, "longitude": 100 }]
+	 	"name" : "(1) Rehabilitační centrum - 5",
+	 	"links": [ { "nodeId": "6r", "latitude": -20, "longitude": 273 },
+                   { "nodeId": "7r", "latitude": -4, "longitude": 134 }]
  	},
     {
 		"id" : "6r",
 	 	"panorama" : "RehabilitacniCentrum/005R.jpg",
-	 	"name" : "five",
-	 	"links": [ { "nodeId": "4r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "5r", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "7o", "latitude": -9, "longitude": 125 }]
+	 	"name" : "(1) Rehabilitační centrum - 6",
+	 	"links": [ { "nodeId": "4r", "latitude": 0, "longitude": 67.5 },
+                   { "nodeId": "5r", "latitude": -18, "longitude": 277.5 },
+                   { "nodeId": "7o", "latitude": -6, "longitude": 181.5 }]
  	},
     {
 		"id" : "7r",
 	 	"panorama" : "RehabilitacniCentrum/006SPl.jpg",
-	 	"name" : "seven",
-	 	"links": [ { "nodeId": "5r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "8r", "latitude": -9, "longitude": 100 }]
+	 	"name" : "(1) Rehabilitační centrum - 7",
+	 	"links": [ { "nodeId": "5r", "latitude": -2, "longitude": 278 },
+                   { "nodeId": "8r", "latitude": -12, "longitude": 122.5 }]
  	},
     {
 		"id" : "8r",
 	 	"panorama" : "RehabilitacniCentrum/007SPl.jpg",
-	 	"name" : "eight",
-	 	"links": [ { "nodeId": "7r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "9r", "latitude": -9, "longitude": 100 }]
+	 	"name" : "(1) Rehabilitační centrum - 8",
+	 	"links": [ { "nodeId": "7r", "latitude": 0, "longitude": 320 },
+                   { "nodeId": "9r", "latitude": -14, "longitude": 65 }]
  	},
     {
 		"id" : "9r",
 	 	"panorama" : "RehabilitacniCentrum/008SPl.jpg",
-	 	"name" : "nine",
-	 	"links": [ { "nodeId": "8r", "latitude": -9, "longitude": 87.5 }]
+	 	"name" : "(1) Rehabilitační centrum - 9",
+	 	"links": [ { "nodeId": "8r", "latitude": -20, "longitude": 87.5 }]
  	},
     {
 		"id" : "10r",
 	 	"panorama" : "RehabilitacniCentrum/101B.jpg",
-	 	"name" : "ten",
-	 	"links": [ { "nodeId": "2r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "11r", "latitude": -9, "longitude": 100 }]
+	 	"name" : "(1) Rehabilitační centrum - 10",
+	 	"links": [ { "nodeId": "2r", "latitude": -2, "longitude": 114 },
+                   { "nodeId": "11r", "latitude": -20, "longitude": 255 }]
  	},
     {
 		"id" : "11r",
 	 	"panorama" : "RehabilitacniCentrum/102B.jpg",
-	 	"name" : "eleven",
-	 	"links": [ { "nodeId": "10r", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "12r", "latitude": -9, "longitude": 100 }]
+	 	"name" : "(1) Rehabilitační centrum - 11",
+	 	"links": [ { "nodeId": "10r", "latitude": -16, "longitude": 145 },
+                   { "nodeId": "12r", "latitude": -5, "longitude": 267 }]
  	},
     {
 		"id" : "12r",
 	 	"panorama" : "RehabilitacniCentrum/103B.jpg",
-	 	"name" : "twelve",
-	 	"links": [ { "nodeId": "11r", "latitude": -9, "longitude": 87.5 }]
+	 	"name" : "(1) Rehabilitační centrum - 12",
+	 	"links": [ { "nodeId": "11r", "latitude": 2, "longitude": 142 }]
  	},
     {
 		"id" : "13r",
 	 	"panorama" : "RehabilitacniCentrum/104E.jpg",
-	 	"name" : "thirteen",
-	 	"links": [ { "nodeId": "1r", "latitude": -9, "longitude": 87.5 }]
+	 	"name" : "(1) Rehabilitační centrum - 13",
+	 	"links": [ { "nodeId": "1r", "latitude": 0, "longitude": 207.5 }]
  	},
     {
 		"id" : "14r",
 	 	"panorama" : "RehabilitacniCentrum/105R.jpg",
-	 	"name" : "fourteen",
-	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 87.5 }]
+	 	"name" : "(1) Rehabilitační centrum - 14",
+	 	"links": [ { "nodeId": "3r", "latitude": 0, "longitude": 288.5 }]
  	},
     {
 		"id" : "15r",
 	 	"panorama" : "RehabilitacniCentrum/106T.jpg",
-	 	"name" : "fifteen",
-	 	"links": [ { "nodeId": "3r", "latitude": -9, "longitude": 87.5 }]
+	 	"name" : "(1) Rehabilitační centrum - 15",
+	 	"links": [ { "nodeId": "3r", "latitude": 0, "longitude": 304 }]
  	}
     
 ]
