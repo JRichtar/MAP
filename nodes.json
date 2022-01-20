@@ -393,106 +393,103 @@
 		"id" : "1p",
 	 	"panorama" : "PsychiatrickeOddeleni/001P.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 1",
-	 	"links": [ { "nodeId": "4p", "latitude": -9, "longitude": 87.5 } ]
+	 	"links": [ { "nodeId": "4p", "latitude": 5, "longitude": 91.5 } ]
  	},
     {
 		"id" : "2p",
 	 	"panorama" : "PsychiatrickeOddeleni/002P.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 2",
-	 	"links": [ { "nodeId": "4p", "latitude": -9, "longitude": 87.5 } ]
+	 	"links": [ { "nodeId": "4p", "latitude": 3, "longitude": -20 } ]
  	},
     {
 		"id" : "3p",
-	 	"panorama" : "PsychiatrickeOddeleni/003P.jpg",
+	 	"panorama" : "PsychiatrickeOddeleni/003T.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 3",
-	 	"links": [ { "nodeId": "4p", "latitude": -9, "longitude": 87.5 } ]
+	 	"links": [ { "nodeId": "4p", "latitude": 6, "longitude": 217.5 } ]
  	},
     {
 		"id" : "4p",
 	 	"panorama" : "PsychiatrickeOddeleni/004CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 4",
-	 	"links": [ { "nodeId": "1p", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "2p", "latitude": -9, "longitude": 75 },
-                   { "nodeId": "3p", "latitude": -9, "longitude": 50 },
-                   { "nodeId": "5p", "latitude": -9, "longitude": 0 } ]
+	 	"links": [ { "nodeId": "1p", "latitude": 5, "longitude": 268 },
+                   { "nodeId": "2p", "latitude": -4, "longitude": 150.5 },
+                   { "nodeId": "5p", "latitude": -10, "longitude": 40 } ]
  	},
     {
 		"id" : "5p",
 	 	"panorama" : "PsychiatrickeOddeleni/005CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 5",
-	 	"links": [ { "nodeId": "4p", "latitude": -9, "longitude": 150 },
-                   { "nodeId": "6p", "latitude": -9, "longitude": 200} ]
+	 	"links": [ { "nodeId": "3p", "latitude": 7, "longitude": 150},
+	 			   { "nodeId": "4p", "latitude": -8, "longitude": 105 },
+                   { "nodeId": "6p", "latitude": -30, "longitude": 222.5} ]
                    
  	},
     {
 		"id" : "6p",
 	 	"panorama" : "PsychiatrickeOddeleni/006CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 6",
-	 	"links": [ { "nodeId": "5p", "latitude": -9, "longitude": 150 },
-                   { "nodeId": "7p", "latitude": -9, "longitude": 200},
-                   { "nodeId": "14p", "latitude": -9, "longitude": 100 } ]
+	 	"links": [ { "nodeId": "5p", "latitude": -16, "longitude": 197.5 },
+                   { "nodeId": "7p", "latitude": -18, "longitude": -30},
+                   { "nodeId": "14p", "latitude": 3, "longitude": 67.5 } ]
  	},
     {
 		"id" : "7p",
 	 	"panorama" : "PsychiatrickeOddeleni/007CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 2. patro",
-	 	"links": [ { "nodeId": "6p", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "8p", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "6r", "latitude": -9, "longitude": 50 },
-                   { "nodeId": "21r", "latitude": -9, "longitude": 0 } ]
+	 	"links": [ { "nodeId": "6p", "latitude": -14, "longitude": 161 },
+                   { "nodeId": "8p", "latitude": 7, "longitude": 317 },
+                   { "nodeId": "6r", "latitude": 3, "longitude": -90 },
+                   { "nodeId": "21r", "latitude": 9, "longitude": -90 } ]
  	},
     {
 		"id" : "8p",
 	 	"panorama" : "PsychiatrickeOddeleni/008CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 8",
-	 	"links": [ { "nodeId": "7p", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "10p", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "11p", "latitude": -9, "longitude": 50 },
-                   { "nodeId": "12p", "latitude": -9, "longitude": 0 }]
+	 	"links": [ { "nodeId": "7p", "latitude": 0, "longitude": 2 },
+                   { "nodeId": "10p", "latitude": 6, "longitude": 103.3 },
+                   { "nodeId": "11p", "latitude": -15, "longitude": 145 },
+                   { "nodeId": "12p", "latitude": -20, "longitude": 210 }]
  	},
     {
 		"id" : "9p",
 	 	"panorama" : "PsychiatrickeOddeleni/009P.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 9",
-	 	"links": [ { "nodeId": "10p", "latitude": -9, "longitude": 87.5 }]
+	 	"links": [ { "nodeId": "10p", "latitude": 0, "longitude": 195 }]
  	},
     {
 		"id" : "10p",
 	 	"panorama" : "PsychiatrickeOddeleni/010P.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 10",
-	 	"links": [ { "nodeId": "9p", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "9p", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "8p", "latitude": -9, "longitude": 125 },
-                   { "nodeId": "11p", "latitude": -9, "longitude": 0 }]
+	 	"links": [ { "nodeId": "9p", "latitude": 0, "longitude": 100 },
+                   { "nodeId": "8p", "latitude": 0, "longitude": 244 }]
  	},
     {
 		"id" : "11p",
 	 	"panorama" : "PsychiatrickeOddeleni/011CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 11",
-	 	"links": [ { "nodeId": "8p", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "10p", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "12p", "latitude": -9, "longitude": 75 },
-                   { "nodeId": "13p", "latitude": -9, "longitude": 50 } ]
+	 	"links": [ { "nodeId": "8p", "latitude": -18, "longitude": 270 },
+                   { "nodeId": "12p", "latitude": -9, "longitude": 217.5 },
+                   { "nodeId": "13p", "latitude": -15, "longitude": 117.5 } ]
  	},
     {
 		"id" : "12p",
 	 	"panorama" : "PsychiatrickeOddeleni/012CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 12",
-	 	"links": [ { "nodeId": "8p", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "11p", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "13p", "latitude": -9, "longitude": 50 }]
+	 	"links": [ { "nodeId": "8p", "latitude": -11, "longitude": 87.5 },
+                   { "nodeId": "11p", "latitude": -9, "longitude": 140 },
+                   { "nodeId": "13p", "latitude": -9, "longitude": 235 }]
  	},
     {
 		"id" : "13p",
 	 	"panorama" : "PsychiatrickeOddeleni/013J.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 13",
-	 	"links": [ { "nodeId": "11p", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "12p", "latitude": -9, "longitude": 100 }]
+	 	"links": [ { "nodeId": "11p", "latitude": -9, "longitude": 45 },
+                   { "nodeId": "12p", "latitude": -12, "longitude": -45 }]
  	},
     {
 		"id" : "14p",
 	 	"panorama" : "PsychiatrickeOddeleni/100V.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 14",
-	 	"links": [ { "nodeId": "6p", "latitude": -9, "longitude": 87.5 } ]
+	 	"links": [ { "nodeId": "6p", "latitude": -9, "longitude": 60 } ]
  	}
 ]
