@@ -469,7 +469,7 @@
 	 	"name" : "(3) Psychiatrické oddělení - 11",
 	 	"links": [ { "nodeId": "8p", "latitude": -18, "longitude": 270 },
                    { "nodeId": "12p", "latitude": -9, "longitude": 217.5 },
-                   { "nodeId": "13p", "latitude": -15, "longitude": 117.5 } ]
+                   { "nodeId": "13p", "latitude": -15, "longitude": 117.5} ]
  	},
     {
 		"id" : "12p",
