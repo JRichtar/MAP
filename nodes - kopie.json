@@ -40,7 +40,7 @@
  	{ 
 		"id" : "5x",
 	 	"panorama" : "Rentgen/005CH.jpg",
-	 	"name" : "(3) Rentgen - 5",
+	 	"name" : "(3) Rentgen - 1. patro",
 	 	"links": [ { "nodeId": "6x", "latitude": 2, "longitude": 110 },
 	 			   { "nodeId": "6", "latitude": 0, "longitude": 175 },
 	 			   { "nodeId": "7c", "latitude": -3, "longitude": -5 } ]
@@ -164,8 +164,7 @@
 	 	"panorama" : "CentralniSterilizace/005.jpg",
 	 	"name" : "(3) Centralni terilizace - 5",
 	 	"links": [ { "nodeId": "4cs", "latitude": 2, "longitude": 110 } ]
- 	},
-
+ 	}
 
 
 
