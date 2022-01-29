@@ -1,12 +1,21 @@
 [
-	{
-		"id" : "10",
-		"panorama" : "Recepce/010.rec.jpg",
-		"name" : "(1) Recepce - 10",
-		"links": [  { "nodeId": "13", "latitude": 0, "longitude": 120.5 },
-					{ "nodeId": "11", "latitude": -8, "longitude": 207.5 },
-					{ "nodeId": "8", "latitude": -5, "longitude": 25 } ]
- 	},
+	  {
+        "id" : "10",
+        "panorama" : "Recepce/010.rec.jpg",
+        "markers": [{
+        	"id": "10m1",
+         	"latitude": 0,
+         	"longitude": 120,
+         	"image":"asserts/kriz.jpg",
+         	"height":30,
+         	"width":30,
+         	"tooltip":"Nemocnice Ostrov",}],
+        "name" : "(1) Recepce - 10",
+        "links": [  { "nodeId": "13", "latitude": 0, "longitude": 120.5 },
+                    { "nodeId": "11", "latitude": -8, "longitude": 207.5 },
+                    { "nodeId": "8", "latitude": -5, "longitude": 25 } ]
+     },
+ 
 	{
 		"id" : "13",
 	 	"panorama" : "Recepce/013.rec.jpg",
@@ -190,6 +199,14 @@
 		"id" : "6o",
 	 	"panorama" : "OckovaciCentrum/006CH.jpg",
 	 	"name" : "(2) Očkovací centrum - 6",
+	 	 "markers": [{
+        	"id": "6om1",
+         	"latitude": 0,
+         	"longitude": 120,
+         	"image":"asserts/kriz.jpg",
+         	"height":30,
+         	"width":30,
+         	"tooltip":"Očkovací místo v Nemocnici Ostrov",}],
 	 	"links": [ { "nodeId": "5o", "latitude": -10, "longitude": 255 },
                    { "nodeId": "7o", "latitude": -2, "longitude": -10 } ]
  	},
@@ -251,6 +268,14 @@
 		"id" : "5r",
 	 	"panorama" : "RehabilitacniCentrum/004R.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 5",
+	 	 "markers": [{
+        	"id": "5rm1",
+         	"latitude": 0,
+         	"longitude": 120,
+         	"image":"asserts/kriz.jpg",
+         	"height":30,
+         	"width":30,
+         	"tooltip":"Rehabilitační ambulance - fyzioterapie",}],
 	 	"links": [ { "nodeId": "6r", "latitude": -20, "longitude": 273 },
                    { "nodeId": "7r", "latitude": -4, "longitude": 134 }]
  	},
@@ -634,6 +659,7 @@
 		"id" : "3cs",
 	 	"panorama" : "CentralniSterilizace/003.jpg",
 	 	"name" : "(3) Centralni terilizace - 3",
+	 	
 	 	"links": [ { "nodeId": "2cs", "latitude": 5, "longitude": 3.5 },
 	 	 		   { "nodeId": "4cs", "latitude": 0, "longitude": 181.25 } ]
  	},
