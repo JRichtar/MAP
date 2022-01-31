@@ -9,7 +9,8 @@
          	"image":"asserts/kriz.jpg",
          	"height": 100,
          	"width": 100,
-         	"tooltip":"Nemocnice Ostrov" }],
+         	"tooltip":"Nemocnice Ostrov",
+         	"content": "Dan smrdí ale pssst" }],
         "name" : "(1) Recepce - 10",
         "links": [  { "nodeId": "13", "latitude": 0, "longitude": 120.5 },
                     { "nodeId": "11", "latitude": -8, "longitude": 207.5 },
@@ -19,8 +20,8 @@
 		"id" : "13",
 	 	"panorama" : "Recepce/013.rec.jpg",
 	 	"name" : "(1) Recepce - 13",
-	 	"links": [ { "nodeId": "10", "latitude": 0, "longitude": 2.5 },
-	 	 		   { "nodeId": "14", "latitude": 0, "longitude": 181.25 } ]
+	 	"links": [ { "nodeId": "10", "latitude": 4, "longitude": 2.5 },
+	 	 		   { "nodeId": "14", "latitude": 4, "longitude": 181.25 } ]
  	},
  	{
 		"id" : "14",
@@ -50,7 +51,7 @@
 	 	"panorama" : "Recepce/011.rec.jpg",
 	 	"name" : "(1) Recepce - 11",
 	 	"links": [ { "nodeId": "10", "latitude": -9, "longitude": 0 },
-	 			   { "nodeId": "12", "latitude": -7, "longitude": 180 } ]
+	 			   { "nodeId": "12", "latitude": -5, "longitude": 181 } ]
  	},
  	{
 		"id" : "12",
@@ -77,7 +78,7 @@
 	 	"panorama" : "Recepce/007.rec.jpg",
 	 	"name" : "(1) Recepce - 7",
 	 	"links": [ { "nodeId": "8", "latitude": -12, "longitude": 290 },
-	 			   { "nodeId": "6", "latitude": -6, "longitude": 110 } ]
+	 			   { "nodeId": "6", "latitude": -4, "longitude": 110 } ]
  	},
  	{
 		"id" : "6",
@@ -85,16 +86,16 @@
 	 	"name" : "(1) Recepce - Přízemí",
 	 	"links": [ { "nodeId": "5", "latitude": -10, "longitude": 265 },
 	 			   { "nodeId": "7", "latitude": -6, "longitude": 85 },
-   	 			   { "nodeId": "5x", "latitude": -6, "longitude": 150 },
-	 			   { "nodeId": "7c", "latitude": -6, "longitude": 130 },
-	 	 		   { "nodeId": "1cs", "latitude": 0, "longitude": 181.25 } ]
+   	 			   { "nodeId": "7c", "latitude": -19, "longitude": 190 },
+	 			   { "nodeId": "5x", "latitude": -23, "longitude": 195 },
+	 	 		   { "nodeId": "1cs", "latitude": -27, "longitude": 200 } ]
  	},
  	{
 		"id" : "5",
 	 	"panorama" : "Recepce/005.rec.jpg",
 	 	"name" : "(1) Recepce - 5",
-	 	"links": [ { "nodeId": "4", "latitude": 0, "longitude": 90 },
-	 			   { "nodeId": "6", "latitude": -4, "longitude": 0 } ]
+	 	"links": [ { "nodeId": "4", "latitude": -5, "longitude": 89 },
+	 			   { "nodeId": "6", "latitude": -10, "longitude": 0 } ]
  	},
  	{
 		"id" : "4",
@@ -127,30 +128,30 @@
 		"id" : "1s",
 	 	"panorama" : "Stacionar/001V.jpg",
 	 	"name" : "(2) Stacionář - 1",
-	 	"links": [ { "nodeId": "2s", "latitude": -7, "longitude": 280 },
-	 			   { "nodeId": "16", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "8o", "latitude": -3, "longitude": 5 } ]
+	 	"links": [ { "nodeId": "2s", "latitude": -3, "longitude": 283 },
+	 			   { "nodeId": "16", "latitude": -5, "longitude": 95 },
+                   { "nodeId": "8o", "latitude": 0, "longitude": 5 } ]
  	},
     {
 		"id" : "2s",
 	 	"panorama" : "Stacionar/002V.jpg",
 	 	"name" : "(2) Stacionář - 2",
-	 	"links": [ { "nodeId": "1s", "latitude": -3, "longitude": 110 },
-                   { "nodeId": "3s", "latitude": -4, "longitude": 326 } ]
+	 	"links": [ { "nodeId": "1s", "latitude": -1, "longitude": 110 },
+                   { "nodeId": "3s", "latitude": -2, "longitude": 326 } ]
  	},
     {
 		"id" : "3s",
 	 	"panorama" : "Stacionar/003V.jpg",
 	 	"name" : "(2) Stacionář - 3",
-	 	"links": [ { "nodeId": "2s", "latitude": -5, "longitude": 130 },
-                   { "nodeId": "4s", "latitude": 5, "longitude": 40 } ]
+	 	"links": [ { "nodeId": "2s", "latitude": -3, "longitude": 130 },
+                   { "nodeId": "4s", "latitude": 3, "longitude": 40 } ]
  	},
     {
 		"id" : "4s",
 	 	"panorama" : "Stacionar/004S.jpg",
 	 	"name" : "(2) Stacionář - 4",
-	 	"links": [ { "nodeId": "3s", "latitude": 0, "longitude": 89 },
-                   { "nodeId": "5s", "latitude": 0, "longitude": 271 } ]
+	 	"links": [ { "nodeId": "3s", "latitude": 4, "longitude": 89 },
+                   { "nodeId": "5s", "latitude": 4, "longitude": 271 } ]
  	},
     {
 		"id" : "5s",
@@ -162,7 +163,7 @@
 		"id" : "1o",
 	 	"panorama" : "OckovaciCentrum/001M.jpg",
 	 	"name" : "(2) Očkovací centrum - 1",
-	 	"links": [ { "nodeId": "2o", "latitude": -24, "longitude": 255 },
+	 	"links": [ { "nodeId": "2o", "latitude": -12, "longitude": 255 },
                    { "nodeId": "4o", "latitude": -4, "longitude": 205 } ]
  	},
     {
@@ -176,7 +177,7 @@
 		"id" : "3o",
 	 	"panorama" : "OckovaciCentrum/003M.jpg",
 	 	"name" : "(2) Očkovací centrum - 3",
-	 	"links": [ { "nodeId": "2o", "latitude": -28, "longitude": 50 },
+	 	"links": [ { "nodeId": "2o", "latitude": -18, "longitude": 50 },
                    { "nodeId": "4o", "latitude": -3, "longitude": 110 } ]
  	},
     {
@@ -191,8 +192,8 @@
 		"id" : "5o",
 	 	"panorama" : "OckovaciCentrum/005CH.jpg",
 	 	"name" : "(2) Očkovací centrum - 5",
-	 	"links": [ { "nodeId": "6o", "latitude": -9, "longitude": 0 },
-                   { "nodeId": "4o", "latitude": -24, "longitude": 70 } ]
+	 	"links": [ { "nodeId": "6o", "latitude": -5, "longitude": 0 },
+                   { "nodeId": "4o", "latitude": -12, "longitude": 70 } ]
  	},
     {
 		"id" : "6o",
@@ -206,16 +207,16 @@
          	"height":30,
          	"width":30,
          	"tooltip":"Očkovací místo v Nemocnici Ostrov" }],
-	 	"links": [ { "nodeId": "5o", "latitude": -10, "longitude": 255 },
-                   { "nodeId": "7o", "latitude": -2, "longitude": -10 } ]
+	 	"links": [ { "nodeId": "5o", "latitude": -4.5 , "longitude": 255 },
+                   { "nodeId": "7o", "latitude": 2, "longitude": -10 } ]
  	},
     {
 		"id" : "7o",
 	 	"panorama" : "OckovaciCentrum/007R.jpg",
 	 	"name" : "(2) Očkovací centrum - 7",
-	 	"links": [ { "nodeId": "6o", "latitude": -2, "longitude": 45 },
-                   { "nodeId": "6r", "latitude": -1, "longitude": 227.5 },
-                   { "nodeId": "8o", "latitude": -2, "longitude": -25 } ]
+	 	"links": [ { "nodeId": "6o", "latitude": 2, "longitude": 45 },
+                   { "nodeId": "6r", "latitude": 3, "longitude": 227.5 },
+                   { "nodeId": "8o", "latitude": 2, "longitude": -25 } ]
  	},
     {
 		"id" : "8o",
@@ -235,24 +236,24 @@
 		"id" : "1r",
 	 	"panorama" : "RehabilitacniCentrum/001CHl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 1",
-	 	"links": [ { "nodeId": "3r", "latitude": -28, "longitude": 250 },
-                   { "nodeId": "13r", "latitude": -2, "longitude": 125} ]
+	 	"links": [ { "nodeId": "3r", "latitude": -17, "longitude": 250 },
+                   { "nodeId": "13r", "latitude": 4, "longitude": 125} ]
                    
  	},
     {
 		"id" : "2r",
 	 	"panorama" : "RehabilitacniCentrum/002CHl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 2",
-	 	"links": [ { "nodeId": "3r", "latitude": -10, "longitude": 37 },
+	 	"links": [ { "nodeId": "3r", "latitude": -6, "longitude": 37 },
                    { "nodeId": "10r", "latitude": 5, "longitude": 269} ]
  	},
     {
 		"id" : "3r",
 	 	"panorama" : "RehabilitacniCentrum/003CHl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 3",
-	 	"links": [ { "nodeId": "1r", "latitude": -15, "longitude": 7.5 },
-                   { "nodeId": "2r", "latitude": 9, "longitude": 267.5 },
-                   { "nodeId": "4r", "latitude": -9, "longitude": 170 },
+	 	"links": [ { "nodeId": "1r", "latitude": -7, "longitude": 7.5 },
+                   { "nodeId": "2r", "latitude": 6, "longitude": 267.5 },
+                   { "nodeId": "4r", "latitude": -3, "longitude": 172 },
                    { "nodeId": "14r", "latitude": 3, "longitude": 59 },
                    { "nodeId": "15r", "latitude": 3, "longitude": 153.5} ]
  	},
@@ -260,8 +261,8 @@
 		"id" : "4r",
 	 	"panorama" : "RehabilitacniCentrum/004CHl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 4",
-	 	"links": [ { "nodeId": "3r", "latitude": -10, "longitude": 297 },
-                   { "nodeId": "6r", "latitude": -2, "longitude": 125 }]
+	 	"links": [ { "nodeId": "3r", "latitude": -7, "longitude": 297 },
+                   { "nodeId": "6r", "latitude": 2, "longitude": 125 }]
  	},
     {
 		"id" : "5r",
@@ -275,45 +276,45 @@
          	"height":30,
          	"width":30,
          	"tooltip":"Rehabilitační ambulance - fyzioterapie" }],
-	 	"links": [ { "nodeId": "6r", "latitude": -20, "longitude": 273 },
-                   { "nodeId": "7r", "latitude": -4, "longitude": 134 }]
+	 	"links": [ { "nodeId": "6r", "latitude": -10, "longitude": 273 },
+                   { "nodeId": "7r", "latitude": 4, "longitude": 134 }]
  	},
     {
 		"id" : "6r",
 	 	"panorama" : "RehabilitacniCentrum/005R.jpg",
 	 	"name" : "(1) Rehabilitační centrum - Přízemí",
-	 	"links": [ { "nodeId": "4r", "latitude": 0, "longitude": 67.5 },
-                   { "nodeId": "5r", "latitude": -18, "longitude": 277.5 },
+	 	"links": [ { "nodeId": "4r", "latitude": 2, "longitude": 66.5 },
+                   { "nodeId": "5r", "latitude": -11, "longitude": 277.5 },
                    { "nodeId": "21r", "latitude": 5, "longitude": -12.5 },
                    { "nodeId": "7p", "latitude": 0, "longitude": -12.5 },
-                   { "nodeId": "7o", "latitude": -6, "longitude": 181.5 }]
+                   { "nodeId": "7o", "latitude": 0, "longitude": 181.5 }]
  	},
     {
 		"id" : "7r",
 	 	"panorama" : "RehabilitacniCentrum/006SPl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 7",
-	 	"links": [ { "nodeId": "5r", "latitude": -2, "longitude": 278 },
-                   { "nodeId": "8r", "latitude": -12, "longitude": 122.5 }]
+	 	"links": [ { "nodeId": "5r", "latitude": 2, "longitude": 278 },
+                   { "nodeId": "8r", "latitude": -8, "longitude": 122.5 }]
  	},
     {
 		"id" : "8r",
 	 	"panorama" : "RehabilitacniCentrum/007SPl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 8",
-	 	"links": [ { "nodeId": "7r", "latitude": 0, "longitude": 320 },
-                   { "nodeId": "9r", "latitude": -14, "longitude": 65 }]
+	 	"links": [ { "nodeId": "7r", "latitude": 2, "longitude": 320 },
+                   { "nodeId": "9r", "latitude": -8, "longitude": 65 }]
  	},
     {
 		"id" : "9r",
 	 	"panorama" : "RehabilitacniCentrum/008SPl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 9",
-	 	"links": [ { "nodeId": "8r", "latitude": -20, "longitude": 87.5 }]
+	 	"links": [ { "nodeId": "8r", "latitude": -14, "longitude": 87.5 }]
  	},
     {
 		"id" : "10r",
 	 	"panorama" : "RehabilitacniCentrum/101B.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 10",
-	 	"links": [ { "nodeId": "2r", "latitude": -2, "longitude": 114 },
-                   { "nodeId": "11r", "latitude": -20, "longitude": 255 }]
+	 	"links": [ { "nodeId": "2r", "latitude": 0, "longitude": 114 },
+                   { "nodeId": "11r", "latitude": -18, "longitude": 255 }]
  	},
     {
 		"id" : "11r",
@@ -332,7 +333,7 @@
 		"id" : "13r",
 	 	"panorama" : "RehabilitacniCentrum/104E.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 13",
-	 	"links": [ { "nodeId": "1r", "latitude": 0, "longitude": 207.5 }]
+	 	"links": [ { "nodeId": "1r", "latitude": 4, "longitude": 207.5 }]
  	},
     {
 		"id" : "14r",
@@ -344,28 +345,28 @@
 		"id" : "15r",
 	 	"panorama" : "RehabilitacniCentrum/106T.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 15",
-	 	"links": [ { "nodeId": "3r", "latitude": 0, "longitude": 304 }]
+	 	"links": [ { "nodeId": "3r", "latitude": 4, "longitude": 304 }]
  	},
  	{
 		"id" : "16r",
 	 	"panorama" : "RehabilitacniCentrum/021HP.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 16",
-	 	"links": [ { "nodeId": "17r", "latitude": -16, "longitude": -40 } ]
+	 	"links": [ { "nodeId": "17r", "latitude": -8, "longitude": -40 } ]
  	},
     {
 		"id" : "17r",
 	 	"panorama" : "RehabilitacniCentrum/022HP.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 17",
-	 	"links": [ { "nodeId": "16r", "latitude": -20, "longitude": 120 },
+	 	"links": [ { "nodeId": "16r", "latitude": -10, "longitude": 120 },
                    { "nodeId": "19r", "latitude": -2, "longitude": 102.5 },
-                   { "nodeId": "21r", "latitude": -20, "longitude": 240 },
+                   { "nodeId": "21r", "latitude": -10, "longitude": 240 },
                    { "nodeId": "18r", "latitude": 3, "longitude": 1 } ]
  	},
     {
 		"id" : "18r",
 	 	"panorama" : "RehabilitacniCentrum/023HPT.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 18",
-	 	"links": [ { "nodeId": "17r", "latitude": -3, "longitude": 284 } ]
+	 	"links": [ { "nodeId": "17r", "latitude": 1, "longitude": 284 } ]
  	},
     {
 		"id" : "19r",
@@ -378,14 +379,14 @@
 		"id" : "20r",
 	 	"panorama" : "RehabilitacniCentrum/025HPP.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 20",
-	 	"links": [ { "nodeId": "19r", "latitude": -26, "longitude": -45 } ]
+	 	"links": [ { "nodeId": "19r", "latitude": -13, "longitude": -45 } ]
  	},
     {
 		"id" : "21r",
 	 	"panorama" : "RehabilitacniCentrum/026HPV.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 3. patro",
-	 	"links": [ { "nodeId": "17r", "latitude": -12, "longitude": 74 },
-                   { "nodeId": "22r", "latitude": -25, "longitude": -90 },
+	 	"links": [ { "nodeId": "17r", "latitude": -8, "longitude": 74 },
+                   { "nodeId": "22r", "latitude": -12, "longitude": -90 },
                    { "nodeId": "7p", "latitude": 6, "longitude": 12 },
                    { "nodeId": "6r", "latitude": 0, "longitude": 12 } ]
  	},
@@ -393,22 +394,22 @@
 		"id" : "22r",
 	 	"panorama" : "RehabilitacniCentrum/027HPV.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 22",
-	 	"links": [ { "nodeId": "21r", "latitude": -30, "longitude": 220 },
-                   { "nodeId": "23r", "latitude": -27, "longitude": 90 } ]
+	 	"links": [ { "nodeId": "21r", "latitude": -15, "longitude": 220 },
+                   { "nodeId": "23r", "latitude": -18, "longitude": 90 } ]
  	},
     {
 		"id" : "23r",
 	 	"panorama" : "RehabilitacniCentrum/028HPp.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 23",
-	 	"links": [ { "nodeId": "22r", "latitude": -28, "longitude": -20 },
-                   { "nodeId": "24r", "latitude": -28, "longitude": 152.5 } ]
+	 	"links": [ { "nodeId": "22r", "latitude": -20, "longitude": -20 },
+                   { "nodeId": "24r", "latitude": -18, "longitude": 152.5 } ]
  	},
     {
 		"id" : "24r",
 	 	"panorama" : "RehabilitacniCentrum/029HPp.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 24",
-	 	"links": [ { "nodeId": "23r", "latitude": -25, "longitude": 178.5 },
-                   { "nodeId": "25r", "latitude": -15, "longitude": 268.5 } ]
+	 	"links": [ { "nodeId": "23r", "latitude": -12, "longitude": 178.5 },
+                   { "nodeId": "25r", "latitude": -9, "longitude": 268.5 } ]
  	},
     {
 		"id" : "25r",
@@ -447,23 +448,23 @@
 	 	"panorama" : "PsychiatrickeOddeleni/005CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 5",
 	 	"links": [ { "nodeId": "3p", "latitude": 7, "longitude": 150},
-	 			   { "nodeId": "4p", "latitude": -8, "longitude": 105 },
-                   { "nodeId": "6p", "latitude": -30, "longitude": 222.5} ]
+	 			   { "nodeId": "4p", "latitude": -4, "longitude": 105 },
+                   { "nodeId": "6p", "latitude": -17, "longitude": 222.5} ]
                    
  	},
     {
 		"id" : "6p",
 	 	"panorama" : "PsychiatrickeOddeleni/006CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 6",
-	 	"links": [ { "nodeId": "5p", "latitude": -16, "longitude": 197.5 },
-                   { "nodeId": "7p", "latitude": -18, "longitude": -30},
+	 	"links": [ { "nodeId": "5p", "latitude": -8, "longitude": 197.5 },
+                   { "nodeId": "7p", "latitude": -9, "longitude": -30},
                    { "nodeId": "14p", "latitude": 3, "longitude": 67.5 } ]
  	},
     {
 		"id" : "7p",
 	 	"panorama" : "PsychiatrickeOddeleni/007CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 2. patro",
-	 	"links": [ { "nodeId": "6p", "latitude": -14, "longitude": 161 },
+	 	"links": [ { "nodeId": "6p", "latitude": -7, "longitude": 161 },
                    { "nodeId": "8p", "latitude": 7, "longitude": 317 },
                    { "nodeId": "6r", "latitude": 3, "longitude": -90 },
                    { "nodeId": "21r", "latitude": 9, "longitude": -90 } ]
@@ -494,65 +495,66 @@
 		"id" : "11p",
 	 	"panorama" : "PsychiatrickeOddeleni/011CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 11",
-	 	"links": [ { "nodeId": "8p", "latitude": -18, "longitude": 270 },
-                   { "nodeId": "12p", "latitude": -9, "longitude": 217.5 },
-                   { "nodeId": "13p", "latitude": -15, "longitude": 117.5} ]
+	 	"links": [ { "nodeId": "8p", "latitude": -9, "longitude": 270 },
+                   { "nodeId": "12p", "latitude": -5, "longitude": 217.5 },
+                   { "nodeId": "13p", "latitude": -5, "longitude": 117.5} ]
  	},
     {
 		"id" : "12p",
 	 	"panorama" : "PsychiatrickeOddeleni/012CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 12",
-	 	"links": [ { "nodeId": "8p", "latitude": -11, "longitude": 87.5 },
-                   { "nodeId": "11p", "latitude": -9, "longitude": 140 },
-                   { "nodeId": "13p", "latitude": -9, "longitude": 235 }]
+	 	"links": [ { "nodeId": "8p", "latitude": -8, "longitude": 90 },
+                   { "nodeId": "11p", "latitude": -6, "longitude": 140 },
+                   { "nodeId": "13p", "latitude": -6, "longitude": 235 }]
  	},
     {
 		"id" : "13p",
 	 	"panorama" : "PsychiatrickeOddeleni/013J.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 13",
-	 	"links": [ { "nodeId": "11p", "latitude": -9, "longitude": 45 },
-                   { "nodeId": "12p", "latitude": -12, "longitude": -45 }]
+	 	"links": [ { "nodeId": "11p", "latitude": -18, "longitude": 90 },
+                   { "nodeId": "12p", "latitude": -7, "longitude": -45 }]
  	},
     {
 		"id" : "14p",
 	 	"panorama" : "PsychiatrickeOddeleni/100V.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 14",
-	 	"links": [ { "nodeId": "6p", "latitude": -9, "longitude": 60 } ]
+	 	"links": [ { "nodeId": "6p", "latitude": 0, "longitude": -72 } ]
  	},
  	{
 		"id" : "1x",
 		"panorama" : "Rentgen/001R.jpg",
 		"name" : "(3) Rentgen - 1",
-		"links": [  { "nodeId": "4x", "latitude": 0, "longitude": 120.5 },
-					{ "nodeId": "7x", "latitude": -8, "longitude": 207.5 } ]
+		"links": [  { "nodeId": "4x", "latitude": 0, "longitude": 73.5 },
+					{ "nodeId": "7x", "latitude": 0, "longitude": 288.5 } ]
  	},
 	{
 		"id" : "2x",
 	 	"panorama" : "Rentgen/002CT.jpg",
 	 	"name" : "(3) Rentgen - 2",
 	 	"links": [ { "nodeId": "3x", "latitude": 0, "longitude": 2.5 },
-	 	 		   { "nodeId": "7x", "latitude": 0, "longitude": 181.25 } ]
+	 	 		   { "nodeId": "7x", "latitude": 0, "longitude": 225 } ]
  	},
  	{
 		"id" : "3x",
 	 	"panorama" : "Rentgen/003CT.jpg",
 	 	"name" : "(3) Rentgen - 3",
-	 	"links": [ { "nodeId": "2x", "latitude": 5, "longitude": 3.5 } ]
+	 	"links": [ { "nodeId": "2x", "latitude": 5, "longitude": 282.5 } ]
  	},
  	{
 		"id" : "4x",
 	 	"panorama" : "Rentgen/004LZ.jpg",
 	 	"name" : "(3) Rentgen - 4",
-	 	"links": [ { "nodeId": "1x", "latitude": 0, "longitude": 230 },
-	 			   { "nodeId": "7x", "latitude": 0, "longitude": 135 } ]
+	 	"links": [ { "nodeId": "1x", "latitude": 3, "longitude": 283 },
+	 			   { "nodeId": "7x", "latitude": 3, "longitude": 50 } ]
  	}, 
  	{ 
 		"id" : "5x",
 	 	"panorama" : "Rentgen/005CH.jpg",
 	 	"name" : "(3) Rentgen - 1. patro",
 	 	"links": [ { "nodeId": "6x", "latitude": 0, "longitude": -27.5},
-	 			   { "nodeId": "6", "latitude": 0, "longitude": 75 },
-	 			   { "nodeId": "7c", "latitude": -3, "longitude": -5 } ]
+	 			   { "nodeId": "6", "latitude": 1, "longitude": 67.5 },
+	 			   { "nodeId": "1cs", "latitude": -4, "longitude": 67.5 },
+	 			   { "nodeId": "7c", "latitude": 6, "longitude": 67.5 } ]
  	},
  	{ 
 		"id" : "6x",
@@ -566,16 +568,16 @@
 	 	"panorama" : "Rentgen/007CH.jpg",
 	 	"name" : "(3) Rentgen - 7",
 	 	"links": [ { "nodeId": "1x", "latitude": -6, "longitude": 50 },
-                   { "nodeId": "2x", "latitude": -6, "longitude": 75 },
-                   { "nodeId": "4x", "latitude": -6, "longitude": 100 },
-                   { "nodeId": "6x", "latitude": -15, "longitude": 255 },
-                   { "nodeId": "8x", "latitude": -20, "longitude": 75 } ]
+                   { "nodeId": "2x", "latitude": -4, "longitude": 233 },
+                   { "nodeId": "4x", "latitude": -6, "longitude": -28.5 },
+                   { "nodeId": "6x", "latitude": -8, "longitude": 255 },
+                   { "nodeId": "8x", "latitude": -16, "longitude": 75 } ]
  	},
  	{
 		"id" : "8x",
 	 	"panorama" : "Rentgen/008CH.jpg",
 	 	"name" : "(3) Rentgen - 8",
-	 	"links": [ { "nodeId": "7x", "latitude": -5, "longitude": 242.5 },
+	 	"links": [ { "nodeId": "7x", "latitude": 0, "longitude": 242.5 },
 	 			   { "nodeId": "9x", "latitude": 1, "longitude": 60.5 } ]
  	},
  	{
@@ -593,7 +595,7 @@
  	{
 		"id" : "2c",
 	 	"panorama" : "ChirurgieOperacniSal/002CH.jpg",
-	 	"name" : "(2) Chirurgie - 3. patro",
+	 	"name" : "(2) Chirurgie - 2",
 	 	"links": [ { "nodeId": "1c", "latitude": -10, "longitude": 265 },
 	 			   { "nodeId": "3c", "latitude": -6, "longitude": 85 } ]
  	},
@@ -628,11 +630,12 @@
  	{
 		"id" : "7c",
 	 	"panorama" : "ChirurgieOperacniSal/007CH.jpg",
-	 	"name" : "(2) Chirurgie - 7",
-	 	"links": [ { "nodeId": "4c", "latitude": -9, "longitude": 87.5 },
-	 			   { "nodeId": "8c", "latitude": -6, "longitude": 130 },
-	 			   { "nodeId": "5x", "latitude": -6, "longitude": 130 },
-	 			   { "nodeId": "6", "latitude": -6, "longitude": 130 } ]
+	 	"name" : "(2) Chirurgie - 3. patro",
+	 	"links": [ { "nodeId": "4c", "latitude": 0, "longitude": 62 },
+	 			   { "nodeId": "8c", "latitude": 4, "longitude": 235 },
+	 			   { "nodeId": "5x", "latitude": 4, "longitude": 298 },
+	 			   { "nodeId": "1cs", "latitude": -6, "longitude": 298 },
+	 			   { "nodeId": "6", "latitude": -1, "longitude": 298 } ]
  	},
     {
 		"id" : "8c",
@@ -643,35 +646,35 @@
  	{
 		"id" : "1cs",
 		"panorama" : "CentralniSterilizace/001.jpg",
-		"name" : "(3) Centralni terilizace - 1",
-		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 120.5 },
-					{ "nodeId": "6", "latitude": -8, "longitude": 207.5 } ]
+		"name" : "(3) Centralni terilizace - podzemí",
+		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 },
+					{ "nodeId": "6", "latitude": 2, "longitude": 202.5 } ]
  	},
 	{
 		"id" : "2cs",
 	 	"panorama" : "CentralniSterilizace/002.jpg",
 	 	"name" : "(3) Centralni terilizace - 2",
-	 	"links": [ { "nodeId": "1cs", "latitude": 0, "longitude": 2.5 },
-	 	 		   { "nodeId": "3cs", "latitude": 0, "longitude": 181.25 } ]
+	 	"links": [ { "nodeId": "1cs", "latitude": 0, "longitude": -11.5 },
+	 	 		   { "nodeId": "3cs", "latitude": 0, "longitude": 305 } ]
  	},
  	{
 		"id" : "3cs",
 	 	"panorama" : "CentralniSterilizace/003.jpg",
 	 	"name" : "(3) Centralni terilizace - 3",
-	 	"links": [ { "nodeId": "2cs", "latitude": 5, "longitude": 3.5 },
-	 	 		   { "nodeId": "4cs", "latitude": 0, "longitude": 181.25 } ]
+	 	"links": [ { "nodeId": "2cs", "latitude": 0, "longitude": -150 },
+	 	 		   { "nodeId": "4cs", "latitude": 0, "longitude": 162.5 } ]
  	},
  	{
 		"id" : "4cs",
 	 	"panorama" : "CentralniSterilizace/004.jpg",
 	 	"name" : "(3) Centralni terilizace - 4",
-	 	"links": [ { "nodeId": "3cs", "latitude": 0, "longitude": 230 },
-	 			   { "nodeId": "5cs", "latitude": 0, "longitude": 135 } ]
+	 	"links": [ { "nodeId": "3cs", "latitude": 0, "longitude": 305 },
+	 			   { "nodeId": "5cs", "latitude": 0, "longitude": 230 } ]
  	}, 
  	{ 
 		"id" : "5cs",
 	 	"panorama" : "CentralniSterilizace/005.jpg",
 	 	"name" : "(3) Centralni terilizace - 5",
-	 	"links": [ { "nodeId": "4cs", "latitude": 2, "longitude": 110 } ]
+	 	"links": [ { "nodeId": "4cs", "latitude": 0, "longitude": 290 } ]
  	}
 ]
