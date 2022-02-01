@@ -590,42 +590,42 @@
 		"id" : "1c",
 	 	"panorama" : "ChirurgieOperacniSal/001P.jpg",
 	 	"name" : "(2) Chirurgie - 1",
-	 	"links": [ { "nodeId": "2c", "latitude": -12, "longitude": 290 } ]
+	 	"links": [ { "nodeId": "2c", "latitude": 5, "longitude": 196.5 } ]
  	},
  	{
 		"id" : "2c",
 	 	"panorama" : "ChirurgieOperacniSal/002CH.jpg",
 	 	"name" : "(2) Chirurgie - 2",
-	 	"links": [ { "nodeId": "1c", "latitude": -10, "longitude": 265 },
-	 			   { "nodeId": "3c", "latitude": -6, "longitude": 85 } ]
+	 	"links": [ { "nodeId": "1c", "latitude": 0, "longitude": 95 },
+	 			   { "nodeId": "3c", "latitude": 0, "longitude": 55 } ]
  	},
  	{
 		"id" : "3c",
 	 	"panorama" : "ChirurgieOperacniSal/003CH.jpg",
 	 	"name" : "(2) Chirurgie - 3",
-	 	"links": [ { "nodeId": "2c", "latitude": 0, "longitude": 90 },
-	 			   { "nodeId": "4c", "latitude": -4, "longitude": 0 } ]
+	 	"links": [ { "nodeId": "2c", "latitude": 0, "longitude": -52.5 },
+	 			   { "nodeId": "4c", "latitude": -6, "longitude": 125 } ]
  	},
  	{
 		"id" : "4c",
 	 	"panorama" : "ChirurgieOperacniSal/004CH.jpg",
 	 	"name" : "(2) Chirurgie - 4",
-	 	"links": [ { "nodeId": "3c", "latitude": -2, "longitude": -37 },
-	 			   { "nodeId": "6c", "latitude": -6, "longitude": 130 },
-	 			   { "nodeId": "7c", "latitude": -6, "longitude": 130 } ]
+	 	"links": [ { "nodeId": "3c", "latitude": -5, "longitude": 96.5 },
+	 			   { "nodeId": "6c", "latitude": -2, "longitude": 273 },
+	 			   { "nodeId": "7c", "latitude": 0, "longitude": 135 } ]
  	},
  	{
 		"id" : "5c",
 	 	"panorama" : "ChirurgieOperacniSal/005CH.jpg",
 	 	"name" : "(2) Chirurgie - 5",
-	 	"links": [ { "nodeId": "6c", "latitude": -10, "longitude": 25 } ]
+	 	"links": [ { "nodeId": "6c", "latitude": -8, "longitude": 105 } ]
  	},
  	{
 		"id" : "6c",
 	 	"panorama" : "ChirurgieOperacniSal/006CH.jpg",
 	 	"name" : "(2) Chirurgie - 6",
-	 	"links": [ { "nodeId": "4c", "latitude": -10, "longitude": 67.5 },
-	 			   { "nodeId": "5c", "latitude": -7, "longitude": 250 } ]
+	 	"links": [ { "nodeId": "4c", "latitude": -6, "longitude": 66 },
+	 			   { "nodeId": "5c", "latitude": -7, "longitude": 248.5 } ]
  	},
  	{
 		"id" : "7c",
@@ -641,7 +641,7 @@
 		"id" : "8c",
 	 	"panorama" : "ChirurgieOperacniSal/008Os.jpg",
 	 	"name" : "(2) Operační sál",
-	 	"links": [ { "nodeId": "7c", "latitude": -9, "longitude": 87.5 } ]
+	 	"links": [ { "nodeId": "7c", "latitude": 0, "longitude": 110 } ]
  	},
  	{
 		"id" : "1cs",
