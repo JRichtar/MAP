@@ -1,4 +1,4 @@
-const regContentJS = new RegExp(/document\.getElementById\('.*'\)\.innerHTML/);
+const regContentJS = new RegExp(/document\.getElementById\(\'.*\'\)\.innerHTML/);
 var app = {
 	nodes: null,
 	viewer: null,
@@ -34,8 +34,8 @@ var app = {
 				        json[i].markers[j].longitude = json[i].markers[j].longitude*(Math.PI/180);
 				    }
 				}
-				if(json[i].content.test(regContentJS)){
-                   let scriptHref = json[i].content(/'*.'/);
+				if(regContentJS.test(json.content)){
+                   let scriptHref = json[i].content(/\'*.\'/);
                    scriptHref.Recepce.remove(/'/, );
                     json[i].content = document.getElementById(scriptHref).innerHTML
 				}
