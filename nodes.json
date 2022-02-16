@@ -158,7 +158,7 @@
          	"height": 100,
          	"width": 100,
          	"tooltip":"Nemocnice Ostrov",
-         	"content_id": "Denní-Stacionar" }],
+         	"content_id": "Denni-Stacionar" }],
 	 	"links": [ { "nodeId": "3s", "latitude": 4, "longitude": 89 },
                    { "nodeId": "5s", "latitude": 4, "longitude": 271 } ]
  	},
@@ -277,7 +277,7 @@
          	"height": 100,
          	"width": 100,
          	"tooltip":"Nemocnice Ostrov",
-         	"content_id": "fyzioterapie" }],
+         	"content_id": "Fyzioterapie" }],
 	 	"links": [ { "nodeId": "1r", "latitude": -7, "longitude": 7.5 },
                    { "nodeId": "2r", "latitude": 6, "longitude": 267.5 },
                    { "nodeId": "4r", "latitude": -3, "longitude": 172 },
@@ -731,7 +731,7 @@
          	"height": 100,
          	"width": 100,
          	"tooltip":"Nemocnice Ostrov",
-         	"content_id": "Opera" }],
+         	"content_id": "Operacni-Sal" }],
 	 	"links": [ { "nodeId": "7c", "latitude": 0, "longitude": 110 } ]
  	},
  	{
@@ -764,7 +764,7 @@
            {
         	"id": "3csm2",
          	"latitude": 0,
-         	"longitude": 120,
+         	"longitude": 60,
          	"image":"asserts/kriz.jpg",
          	"height": 100,
          	"width": 100,
