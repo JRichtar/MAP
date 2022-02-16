@@ -1,4 +1,3 @@
-const regContentJS = new RegExp(/document\.getElementById\(\'.*\'\)\.innerHTML/);
 var app = {
 	nodes: null,
 	viewer: null,
@@ -32,12 +31,11 @@ var app = {
 				    for (let j = 0; j<json[i].markers.length; j++) {
 				        json[i].markers[j].latitude = json[i].markers[j].latitude*(Math.PI/180);
 				        json[i].markers[j].longitude = json[i].markers[j].longitude*(Math.PI/180);
+
+						if (json[i].markers[j].content_id) {
+		                    json[i].markers[j].content = document.getElementById(json[i].markers[j].content_id).innerHTML;
+						}
 				    }
-				}
-				if(regContentJS.test(json.content)){
-                   let scriptHref = json[i].content(/\'*.\'/);
-                   scriptHref.Recepce.remove(/'/, );
-                    json[i].content = document.getElementById(scriptHref).innerHTML
 				}
             }
             app.nodes = json;
