@@ -261,7 +261,7 @@
          	"height": 100,
          	"width": 100,
          	"tooltip":"Nemocnice Ostrov",
-         	"content_id": "Fyzikalni-rerapie-ergoterapie-kuneiotaping" }],
+         	"content_id": "Fyzikalni-rerapie-ergoterapie-kuneziotaping" }],
 	 	"links": [ { "nodeId": "3r", "latitude": -6, "longitude": 37 },
                    { "nodeId": "10r", "latitude": 5, "longitude": 269} ]
  	},
@@ -318,7 +318,7 @@
          	"height": 100,
          	"width": 100,
          	"tooltip":"Nemocnice Ostrov",
-         	"conten_idt": "Rehabilitacni-Ambulance" }],
+         	"content_id": "Rehabilitacni-Ambulance" }],
 	 	"links": [ { "nodeId": "4r", "latitude": 2, "longitude": 66.5 },
                    { "nodeId": "5r", "latitude": -11, "longitude": 277.5 },
                    { "nodeId": "21r", "latitude": 5, "longitude": -12.5 },
