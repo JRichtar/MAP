@@ -1,0 +1,42 @@
+Recepce:
+    003.rec
+    004.rec
+    005.rec
+    006.rec
+    007.rec
+    009.rec
+    010.rec
+    011.rec
+    012.rec
+    013.rec
+    015.rec
+    016.rec
+    017.rec
+    
+Chirurgie:
+    007CH
+
+Psychiatrie:
+    002P
+    004CH
+    008CH
+    012CH
+    
+Rehabilitace:
+    001CHl
+    004CHl
+    007SPl
+    008SPl
+    026HPV
+    027HPV
+    102B
+    106T
+
+(Park pøed nemocnicí:
+    008
+    010
+    011
+    012
+    013
+    014
+    015)
