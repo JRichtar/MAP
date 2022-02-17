@@ -57,7 +57,8 @@
 		"id" : "12",
 	 	"panorama" : "Recepce/012.rec.jpg",
 	 	"name" : "(1) Recepce - 12",
-	 	"links": [ { "nodeId": "11", "latitude": -6, "longitude": 177.5 } ]
+	 	"links": [ { "nodeId": "11", "latitude": -6, "longitude": 177.5 },
+	 			   { "nodeId": "1nip", "latitude": -6, "longitude": 0 } ]
  	},
  	{
 		"id" : "8",
@@ -239,7 +240,9 @@
 		"id" : "9o",
 	 	"panorama" : "OckovaciCentrum/009V.jpg",
 	 	"name" : "(2) Očkovací centrum - 9",
-	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 } ]
+	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 },
+	 			   { "nodeId": "1j", "latitude": 10, "longitude": 290 },
+	 			   { "nodeId": "1l", "latitude": 20, "longitude": 290 } ]
  	},
     {
 		"id" : "1r",
@@ -785,5 +788,58 @@
 	 	"panorama" : "CentralniSterilizace/005.jpg",
 	 	"name" : "(3) Centralni sterilizace - 5",
 	 	"links": [ { "nodeId": "4cs", "latitude": 0, "longitude": 290 } ]
+ 	},
+ 	{ 
+		"id" : "1nip",
+	 	"panorama" : "NIP/001.jpg",
+	 	"name" : "(4) NIP",
+	 	"links": [ { "nodeId": "12", "latitude": 0, "longitude": 290 } ]
+ 	},
+ 	{ 
+		"id" : "1j",
+	 	"panorama" : "Jidelna/001J.jpg",
+	 	"name" : "(4) Jídelna - 1",
+	 	"links": [ { "nodeId": "9o", "latitude": 0, "longitude": 290 },
+	 	 		   { "nodeId": "2j", "latitude": 10, "longitude": 290 }]
+ 	},
+ 	{ 
+		"id" : "2j",
+	 	"panorama" : "Jidelna/002J.jpg",
+	 	"name" : "(4) Jídelna - 2",
+	 	"links": [ { "nodeId": "1j", "latitude": 10, "longitude": 290 } ]
+ 	},
+ 	{ 
+		"id" : "1l",
+	 	"panorama" : "Pradelna/001Pr.jpg",
+	 	"name" : "(4) Prádelna - 1",
+	 	"links": [ { "nodeId": "9o", "latitude": 10, "longitude": 290 },
+	 			   { "nodeId": "2l", "latitude": 10, "longitude": 250 } ]
+ 	},
+ 	{ 
+		"id" : "2l",
+	 	"panorama" : "Pradelna/002Pr.jpg",
+	 	"name" : "(4) Prádelna - 2",
+	 	"links": [ { "nodeId": "1l", "latitude": 10, "longitude": 290 },
+	 			   { "nodeId": "3l", "latitude": 10, "longitude": 250 } ]
+ 	},
+ 	{ 
+		"id" : "3l",
+	 	"panorama" : "Pradelna/003Pr.jpg",
+	 	"name" : "(4) Prádelna - 3",
+	 	"links": [ { "nodeId": "2l", "latitude": 10, "longitude": 290 },
+	 			   { "nodeId": "4l", "latitude": 10, "longitude": 250 } ]
+ 	},
+ 	{ 
+		"id" : "4l",
+	 	"panorama" : "Pradelna/004Pr.jpg",
+	 	"name" : "(4) Prádelna - 4",
+	 	"links": [ { "nodeId": "3l", "latitude": 10, "longitude": 290 },
+	 			   { "nodeId": "5l", "latitude": 10, "longitude": 250 } ]
+ 	},
+ 	{ 
+		"id" : "5l",
+	 	"panorama" : "Pradelna/005Pr.jpg",
+	 	"name" : "(4) Prádelna - 5",
+	 	"links": [ { "nodeId": "4l", "latitude": 10, "longitude": 290 } ]
  	}
 ]
