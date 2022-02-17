@@ -12,53 +12,53 @@
          	"tooltip":"Nemocnice Ostrov",
          	"content_id": "Recepce-Nemocnice-Ostrov" }],
         "name" : "(1) Recepce - 10",
-        "links": [  { "nodeId": "13", "latitude": 0, "longitude": 120.5 },
-                    { "nodeId": "11", "latitude": -8, "longitude": 207.5 },
-                    { "nodeId": "8", "latitude": -5, "longitude": 25 } ]
+        "links": [  { "nodeId": "13", "latitude": 0, "longitude": 283.4 },
+                    { "nodeId": "11", "latitude": -4, "longitude": 11 },
+                    { "nodeId": "8", "latitude": -5, "longitude": 192 } ]
     },
 	{
 		"id" : "13",
 	 	"panorama" : "Recepce/013.rec.jpg",
 	 	"name" : "(1) Recepce - 13",
-	 	"links": [ { "nodeId": "10", "latitude": 4, "longitude": 2.5 },
-	 	 		   { "nodeId": "14", "latitude": 4, "longitude": 181.25 } ]
+	 	"links": [ { "nodeId": "10", "latitude": 4, "longitude": 241.5 },
+	 	 		   { "nodeId": "14", "latitude": 4, "longitude": 60.5 } ]
  	},
  	{
 		"id" : "14",
 	 	"panorama" : "Recepce/014.rec.jpg",
 	 	"name" : "(1) Recepce - 14",
-	 	"links": [ { "nodeId": "13", "latitude": 5, "longitude": 3.5 },
-	 			   { "nodeId": "15", "latitude": 5, "longitude": 120 },
-	 			   { "nodeId": "16", "latitude": 1, "longitude": 215 } ]
+	 	"links": [ { "nodeId": "13", "latitude": 2, "longitude": -22.5 },
+	 			   { "nodeId": "15", "latitude": -1, "longitude": 120 },
+	 			   { "nodeId": "16", "latitude": -7, "longitude": 225 } ]
  	},
  	{
 		"id" : "15",
 	 	"panorama" : "Recepce/015.rec.jpg",
 	 	"name" : "(1) Recepce - 15",
-	 	"links": [ { "nodeId": "14", "latitude": 0, "longitude": 230 },
-	 			   { "nodeId": "16", "latitude": 0, "longitude": 135 } ]
+	 	"links": [ { "nodeId": "14", "latitude": -2, "longitude": 20 },
+	 			   { "nodeId": "16", "latitude": -2, "longitude": 312.5 } ]
  	}, 
  	{ 
 		"id" : "16",
 	 	"panorama" : "Recepce/016.rec.jpg",
 	 	"name" : "(1) Recepce - 16",
-	 	"links": [ { "nodeId": "14", "latitude": 2, "longitude": 110 },
-	 			   { "nodeId": "15", "latitude": 0, "longitude": 175 },
-	 			   { "nodeId": "1s", "latitude": -3, "longitude": -5 } ]
+	 	"links": [ { "nodeId": "14", "latitude": 0, "longitude": 65 },
+	 			   { "nodeId": "15", "latitude": -4, "longitude": 150 },
+	 			   { "nodeId": "1s", "latitude": -2, "longitude": -20 } ]
  	},
  	{ 
 		"id" : "11",
 	 	"panorama" : "Recepce/011.rec.jpg",
 	 	"name" : "(1) Recepce - 11",
-	 	"links": [ { "nodeId": "10", "latitude": -9, "longitude": 0 },
-	 			   { "nodeId": "12", "latitude": -5, "longitude": 181 } ]
+	 	"links": [ { "nodeId": "10", "latitude": -8, "longitude": 83 },
+	 			   { "nodeId": "12", "latitude": -6, "longitude": 263 } ]
  	},
  	{
 		"id" : "12",
 	 	"panorama" : "Recepce/012.rec.jpg",
 	 	"name" : "(1) Recepce - 12",
-	 	"links": [ { "nodeId": "11", "latitude": -6, "longitude": 177.5 },
-	 			   { "nodeId": "1nip", "latitude": -6, "longitude": 0 } ]
+	 	"links": [ { "nodeId": "11", "latitude": -4, "longitude": 302 },
+	 			   { "nodeId": "1nip", "latitude": 0, "longitude": 127.5 } ]
  	},
  	{
 		"id" : "8",
@@ -72,45 +72,45 @@
 		"id" : "9",
 	 	"panorama" : "Recepce/009.rec.jpg",
 	 	"name" : "(1) Recepce - 9",
-	 	"links": [ { "nodeId": "8", "latitude": -15, "longitude": 90 } ]
+	 	"links": [ { "nodeId": "8", "latitude": -17.5, "longitude": 90 } ]
  	},
  	{
 		"id" : "7",
 	 	"panorama" : "Recepce/007.rec.jpg",
 	 	"name" : "(1) Recepce - 7",
-	 	"links": [ { "nodeId": "8", "latitude": -12, "longitude": 290 },
-	 			   { "nodeId": "6", "latitude": -4, "longitude": 110 } ]
+	 	"links": [ { "nodeId": "8", "latitude": -12, "longitude": 62.5 },
+	 			   { "nodeId": "6", "latitude": -4, "longitude": 232.5 } ]
  	},
  	{
 		"id" : "6",
 	 	"panorama" : "Recepce/006.rec.jpg",
 	 	"name" : "(1) Recepce - Přízemí",
-	 	"links": [ { "nodeId": "5", "latitude": -10, "longitude": 265 },
-	 			   { "nodeId": "7", "latitude": -6, "longitude": 85 },
-   	 			   { "nodeId": "7c", "latitude": -19, "longitude": 190 },
-	 			   { "nodeId": "5x", "latitude": -23, "longitude": 195 },
-	 	 		   { "nodeId": "1cs", "latitude": -27, "longitude": 200 } ]
+	 	"links": [ { "nodeId": "5", "latitude": -10, "longitude": 225 },
+	 			   { "nodeId": "7", "latitude": -6, "longitude": 45 },
+   	 			   { "nodeId": "7c", "latitude": 5, "longitude": 176.5 },
+	 			   { "nodeId": "5x", "latitude": 0, "longitude": 176.5 },
+	 	 		   { "nodeId": "1cs", "latitude": -5, "longitude": 176.5 } ]
  	},
  	{
 		"id" : "5",
 	 	"panorama" : "Recepce/005.rec.jpg",
 	 	"name" : "(1) Recepce - 5",
-	 	"links": [ { "nodeId": "4", "latitude": -5, "longitude": 89 },
-	 			   { "nodeId": "6", "latitude": -10, "longitude": 0 } ]
+	 	"links": [ { "nodeId": "4", "latitude": -5, "longitude": 11.5 },
+	 			   { "nodeId": "6", "latitude": -10, "longitude": -80 } ]
  	},
  	{
 		"id" : "4",
 	 	"panorama" : "Recepce/004.rec.jpg",
 	 	"name" : "(1) Recepce - 4",
-	 	"links": [ { "nodeId": "3", "latitude": -2, "longitude": -37 },
-	 			   { "nodeId": "5", "latitude": -6, "longitude": 130 } ]
+	 	"links": [ { "nodeId": "3", "latitude": -2, "longitude": 73.5 },
+	 			   { "nodeId": "5", "latitude": -6, "longitude": 247.5 } ]
  	},
  	{
 		"id" : "3",
 	 	"panorama" : "Recepce/003.rec.jpg",
 	 	"name" : "(1) Recepce - 3",
-	 	"links": [ { "nodeId": "2", "latitude": -10, "longitude": 25 },
-	 			   { "nodeId": "4", "latitude": -7, "longitude": 207.5 } ]
+	 	"links": [ { "nodeId": "2", "latitude": -10, "longitude": 172 },
+	 			   { "nodeId": "4", "latitude": -5, "longitude": 354 } ]
  	},
  	{
 		"id" : "2",
@@ -241,8 +241,7 @@
 	 	"panorama" : "OckovaciCentrum/009V.jpg",
 	 	"name" : "(2) Očkovací centrum - 9",
 	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 },
-	 			   { "nodeId": "1j", "latitude": 10, "longitude": 290 },
-	 			   { "nodeId": "1l", "latitude": 20, "longitude": 290 } ]
+	 			   { "nodeId": "1j", "latitude": 10, "longitude": 290 } ]
  	},
     {
 		"id" : "1r",
@@ -716,11 +715,11 @@
 		"id" : "7c",
 	 	"panorama" : "ChirurgieOperacniSal/007CH.jpg",
 	 	"name" : "(2) Chirurgie - 3. patro",
-	 	"links": [ { "nodeId": "4c", "latitude": 0, "longitude": 62 },
-	 			   { "nodeId": "8c", "latitude": 4, "longitude": 235 },
-	 			   { "nodeId": "5x", "latitude": 4, "longitude": 298 },
-	 			   { "nodeId": "1cs", "latitude": -6, "longitude": 298 },
-	 			   { "nodeId": "6", "latitude": -1, "longitude": 298 } ]
+	 	"links": [ { "nodeId": "4c", "latitude": 0, "longitude": 191 },
+	 			   { "nodeId": "8c", "latitude": 1, "longitude": 8.5 },
+	 			   { "nodeId": "5x", "latitude": 4, "longitude": 77.5 },
+	 			   { "nodeId": "1cs", "latitude": -6, "longitude": 77.5 },
+	 			   { "nodeId": "6", "latitude": -1, "longitude": 77.5 } ]
  	},
     {
 		"id" : "8c",
@@ -742,7 +741,8 @@
 		"panorama" : "CentralniSterilizace/001.jpg",
 		"name" : "(3) Centralni sterilizace - podzemí",
 		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 },
-					{ "nodeId": "6", "latitude": 2, "longitude": 202.5 } ]
+					{ "nodeId": "6", "latitude": 2, "longitude": 202.5 },
+					{ "nodeId": "1l", "latitude": 20, "longitude": 290 } ]
  	},
 	{
 		"id" : "2cs",
@@ -793,7 +793,7 @@
 		"id" : "1nip",
 	 	"panorama" : "NIP/001.jpg",
 	 	"name" : "(4) NIP",
-	 	"links": [ { "nodeId": "12", "latitude": 0, "longitude": 290 } ]
+	 	"links": [ { "nodeId": "12", "latitude": 5, "longitude": 132.5 } ]
  	},
  	{ 
 		"id" : "1j",
@@ -812,7 +812,7 @@
 		"id" : "1l",
 	 	"panorama" : "Pradelna/001Pr.jpg",
 	 	"name" : "(4) Prádelna - 1",
-	 	"links": [ { "nodeId": "9o", "latitude": 10, "longitude": 290 },
+	 	"links": [ { "nodeId": "1cs", "latitude": 10, "longitude": 290 },
 	 			   { "nodeId": "2l", "latitude": 10, "longitude": 250 } ]
  	},
  	{ 

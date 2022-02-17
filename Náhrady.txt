@@ -1,21 +1,3 @@
-Recepce:
-    003.rec
-    004.rec
-    005.rec
-    006.rec
-    007.rec
-    009.rec
-    010.rec
-    011.rec
-    012.rec
-    013.rec
-    015.rec
-    016.rec
-    017.rec
-    
-Chirurgie:
-    007CH
-
 Psychiatrie:
     002P
     004CH
@@ -32,7 +14,7 @@ Rehabilitace:
     102B
     106T
 
-(Park pøed nemocnicí:
+(Park pï¿½ed nemocnicï¿½:
     008
     010
     011
@@ -40,3 +22,11 @@ Rehabilitace:
     013
     014
     015)
+
+
+
+HOTOVO:
+
+NIP
+JÃDELNA
+,
