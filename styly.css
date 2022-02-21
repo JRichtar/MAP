@@ -22,3 +22,10 @@ footer{
 	font-size: 10px;
 	text-align: center;
 }
+header{
+	align-items: right;
+}
+img{
+	max-width: 100%;
+  	height: auto;
+}
