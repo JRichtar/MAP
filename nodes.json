@@ -10,7 +10,16 @@
          	"height": 100,
          	"width": 100,
          	"tooltip":"Nemocnice Ostrov",
-         	"content_id": "Recepce-Nemocnice-Ostrov" }],
+         	"content_id": "Recepce-Nemocnice-Ostrov" },
+         	{"id": "10m2",
+         	"latitude": 350,
+         	"longitude": 190,
+         	"image":"asserts/kriz.png",
+         	"height": 100,
+         	"width": 100,
+         	"tooltip":"Informace Pro veřejnost",
+         	"content_id": "Informace"},
+         	],
         "name" : "(1) Recepce - 10",
         "links": [  { "nodeId": "13", "latitude": 0, "longitude": 283.4 },
                     { "nodeId": "11", "latitude": -4, "longitude": 11 },
@@ -603,7 +612,7 @@
 		"id" : "5x",
 	 	"panorama" : "Rentgen/005CH.jpg",
 	 	"name" : "(3) Rentgen - 1. patro",
-  "markers": [{
+ 		 "markers": [{
         	"id": "10m1",
          	"latitude": 0,
          	"longitude": 150,
@@ -621,7 +630,7 @@
 		"id" : "6x",
 	 	"panorama" : "Rentgen/006R.jpg",
 	 	"name" : "(3) Rentgen - 6",
-  "markers": [{
+ 		 "markers": [{
         	"id": "6xm1",
          	"latitude": 0,
          	"longitude": 305,
@@ -894,9 +903,18 @@
 		"id" : "1pp",
 	 	"panorama" : "ParkPredNemocnici/001.jpg",
 	 	"name" : "(1) Park před nemocnicí - 1",
+	 	"markers": [{
+        	"id": "1ppm1",
+         	"latitude": 0,
+         	"longitude": 0,
+         	"image":"asserts/kriz.png",
+         	"height": 100,
+         	"width": 100,
+         	"tooltip":"Park Pred Nemocnici",
+         	"content_id": "Park-Pred-Nemocnici" }],
 	 	"links": [ { "nodeId": "2pp", "latitude": -9, "longitude": 87.5 },
                    { "nodeId": "16", "latitude": -9, "longitude": 87.5 } ]
- 	},
+ 	}
     {
 		"id" : "5pp",
 	 	"panorama" : "ParkPredNemocnici/005.jpg",
