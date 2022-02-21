@@ -746,7 +746,8 @@
 		"name" : "(3) Centralni sterilizace - podzemí",
 		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 },
 					{ "nodeId": "6", "latitude": 2, "longitude": 202.5 },
-					{ "nodeId": "1l", "latitude": 20, "longitude": 290 } ]
+					{ "nodeId": "1l", "latitude": 20, "longitude": 290 },
+					{ "nodeId": "1k", "latitude": -9, "longitude": 87.5 } ]
  	},
 	{
 		"id" : "2cs",
@@ -850,19 +851,20 @@
 		"id" : "1k",
 	 	"panorama" : "Kotelna/001K.jpg",
 	 	"name" : "(4) Kotelna - 1",
-	 	"links": [ { "nodeId": "4l", "latitude": 10, "longitude": 290 } ]
+	 	"links": [ { "nodeId": "2k", "latitude": 10, "longitude": 290 },
+	 			   { "nodeId": "1cs", "latitude": -9, "longitude": 87.5 } ]
  	},
  	{ 
 		"id" : "2k",
 	 	"panorama" : "Kotelna/002K.jpg",
 	 	"name" : "(4) Kotelna - 2",
-	 	"links": [ { "nodeId": "4l", "latitude": 10, "longitude": 290 } ]
+	 	"links": [ { "nodeId": "1k", "latitude": 10, "longitude": 290 } ]
  	},
  	{ 
 		"id" : "3k",
 	 	"panorama" : "Kotelna/003K.jpg",
 	 	"name" : "(4) Kotelna - 3",
-	 	"links": [ { "nodeId": "4l", "latitude": 10, "longitude": 290 } ]
+	 	"links": [ { "nodeId": "26pp", "latitude": 10, "longitude": 290 } ]
  	},
 	{
 		"id" : "4pp",
@@ -1051,7 +1053,8 @@
 	 	"panorama" : "ParkPredNemocnici/026.jpg",
 	 	"name" : "(1) Park před nemocnicí - 26",
 	 	"links": [ { "nodeId": "27pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "25pp", "latitude": -9, "longitude": 100 } ]
+                   { "nodeId": "25pp", "latitude": -9, "longitude": 100 },
+                   { "nodeId": "3k", "latitude": -9, "longitude": 150 } ]
  	},
     {
 		"id" : "27pp",
