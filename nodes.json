@@ -914,7 +914,7 @@
          	"content_id": "Park-Pred-Nemocnici" }],
 	 	"links": [ { "nodeId": "2pp", "latitude": -9, "longitude": 87.5 },
                    { "nodeId": "16", "latitude": -9, "longitude": 87.5 } ]
- 	}
+ 	},
     {
 		"id" : "5pp",
 	 	"panorama" : "ParkPredNemocnici/005.jpg",
