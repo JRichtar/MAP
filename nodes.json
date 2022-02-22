@@ -905,8 +905,8 @@
 	 	"name" : "(1) Park před nemocnicí - 1",
 	 	"markers": [{
         	"id": "1ppm1",
-         	"latitude": 0,
-         	"longitude": 0,
+         	"latitude": 358,
+         	"longitude": 152,
          	"image":"asserts/kriz.png",
          	"height": 100,
          	"width": 100,
