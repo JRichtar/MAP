@@ -1,10 +1,12 @@
-Psychiatrie:
+Potřebné úpravy nodes:
+
+Psychiatrie
     002P
     004CH
     008CH
     012CH
     
-Rehabilitace:
+Rehabilitace
     001CHl
     004CHl
     007SPl
@@ -14,19 +16,10 @@ Rehabilitace:
     102B
     106T
 
-(Park p�ed nemocnic�:
-    008
-    010
-    011
-    012
-    013
-    014
-    015)
+OckovaciCentrum\002M
+OckovaciCentrum\008V
+PsychiatrickeOddeleni\002P
+PsychiatrickeOddeleni\008CH
+Rentgen\006R
 
-
-
-HOTOVO:
-
-NIP
-JÍDELNA
-,
+Celá prádelna a kotelna

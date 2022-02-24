@@ -254,7 +254,7 @@
 	 	"panorama" : "OckovaciCentrum/009V.jpg",
 	 	"name" : "(2) Očkovací centrum - 9",
 	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 },
-	 			   { "nodeId": "1j", "latitude": 10, "longitude": 290 } ]
+	 			   { "nodeId": "1j", "latitude": 4, "longitude": 86 } ]
  	},
     {
 		"id" : "1r",
@@ -752,7 +752,7 @@
  	{
 		"id" : "1cs",
 		"panorama" : "CentralniSterilizace/001.jpg",
-		"name" : "(3) Centralni sterilizace, Prádelna, Kotelna",
+		"name" : "(3) Centralni sterilizace, Prádelna, Kotelna - podzemí",
 		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 },
 					{ "nodeId": "6", "latitude": 2, "longitude": 202.5 },
 					{ "nodeId": "1l", "latitude": 1, "longitude": 26 },
@@ -813,61 +813,61 @@
 		"id" : "1j",
 	 	"panorama" : "Jidelna/001J.jpg",
 	 	"name" : "(4) Jídelna - 1",
-	 	"links": [ { "nodeId": "9o", "latitude": 0, "longitude": 290 },
-	 	 		   { "nodeId": "2j", "latitude": 10, "longitude": 290 }]
+	 	"links": [ { "nodeId": "9o", "latitude": 0, "longitude": 220 },
+	 	 		   { "nodeId": "2j", "latitude": 1, "longitude": 15 }]
  	},
  	{ 
 		"id" : "2j",
 	 	"panorama" : "Jidelna/002J.jpg",
 	 	"name" : "(4) Jídelna - 2",
-	 	"links": [ { "nodeId": "1j", "latitude": 10, "longitude": 290 } ]
+	 	"links": [ { "nodeId": "1j", "latitude": 1, "longitude": 83.5 } ]
  	},
  	{ 
 		"id" : "1l",
 	 	"panorama" : "Pradelna/001Pr.jpg",
 	 	"name" : "(4) Prádelna - 1",
-	 	"links": [ { "nodeId": "1cs", "latitude": 10, "longitude": 290 },
-	 			   { "nodeId": "2l", "latitude": 10, "longitude": 250 } ]
+	 	"links": [ { "nodeId": "1cs", "latitude": 0, "longitude": 320 },
+	 			   { "nodeId": "2l", "latitude": 0, "longitude": 105 } ]
  	},
  	{ 
 		"id" : "2l",
 	 	"panorama" : "Pradelna/002Pr.jpg",
 	 	"name" : "(4) Prádelna - 2",
-	 	"links": [ { "nodeId": "1l", "latitude": 10, "longitude": 290 },
-	 			   { "nodeId": "3l", "latitude": 10, "longitude": 250 } ]
+	 	"links": [ { "nodeId": "1l", "latitude": 0, "longitude": 352.5 },
+	 			   { "nodeId": "3l", "latitude": 0, "longitude": 143.5 } ]
  	},
  	{ 
 		"id" : "3l",
 	 	"panorama" : "Pradelna/003Pr.jpg",
 	 	"name" : "(4) Prádelna - 3",
-	 	"links": [ { "nodeId": "2l", "latitude": 10, "longitude": 290 },
-	 			   { "nodeId": "4l", "latitude": 10, "longitude": 250 } ]
+	 	"links": [ { "nodeId": "2l", "latitude": 0, "longitude": 357.5 },
+	 			   { "nodeId": "4l", "latitude": 0, "longitude": 135 } ]
  	},
  	{ 
 		"id" : "4l",
 	 	"panorama" : "Pradelna/004Pr.jpg",
 	 	"name" : "(4) Prádelna - 4",
-	 	"links": [ { "nodeId": "3l", "latitude": 10, "longitude": 290 },
-	 			   { "nodeId": "5l", "latitude": 10, "longitude": 250 } ]
+	 	"links": [ { "nodeId": "3l", "latitude": 0, "longitude": 150 },
+	 			   { "nodeId": "5l", "latitude": 0, "longitude": 346.5 } ]
  	},
  	{ 
 		"id" : "5l",
 	 	"panorama" : "Pradelna/005Pr.jpg",
 	 	"name" : "(4) Prádelna - 5",
-	 	"links": [ { "nodeId": "4l", "latitude": 10, "longitude": 290 } ]
+	 	"links": [ { "nodeId": "4l", "latitude": 0, "longitude": 349 } ]
  	},
  	{ 
 		"id" : "1k",
 	 	"panorama" : "Kotelna/001K.jpg",
 	 	"name" : "(4) Kotelna - 1",
-	 	"links": [ { "nodeId": "2k", "latitude": -4, "longitude": 110 },
-	 			   { "nodeId": "1cs", "latitude": -5, "longitude": 298 } ]
+	 	"links": [ { "nodeId": "2k", "latitude": -15, "longitude": 120 },
+	 			   { "nodeId": "1cs", "latitude": -2, "longitude": 298 } ]
  	},
  	{ 
 		"id" : "2k",
 	 	"panorama" : "Kotelna/002K.jpg",
 	 	"name" : "(4) Kotelna - 2",
-	 	"links": [ { "nodeId": "1k", "latitude": -7, "longitude": 285 } ]
+	 	"links": [ { "nodeId": "1k", "latitude": -15, "longitude": 290 } ]
  	},
  	{ 
 		"id" : "3k",
