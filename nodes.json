@@ -412,7 +412,7 @@
 	 	"links": [ { "nodeId": "16r", "latitude": -10, "longitude": 120 },
                    { "nodeId": "19r", "latitude": -2, "longitude": 102.5 },
                    { "nodeId": "21r", "latitude": -10, "longitude": 240 },
-                   { "nodeId": "18r", "latitude": 3, "longitude": 1 } ]
+                   { "nodeId": "18r", "latitude": 1, "longitude": 1 } ]
  	},
     {
 		"id" : "18r",
@@ -437,17 +437,17 @@
 		"id" : "21r",
 	 	"panorama" : "RehabilitacniCentrum/026HPV.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 3. patro",
-	 	"links": [ { "nodeId": "17r", "latitude": -8, "longitude": 74 },
-                   { "nodeId": "22r", "latitude": -12, "longitude": -90 },
-                   { "nodeId": "7p", "latitude": 6, "longitude": 12 },
-                   { "nodeId": "6r", "latitude": 0, "longitude": 12 } ]
+	 	"links": [ { "nodeId": "17r", "latitude": -8, "longitude": 150 },
+                   { "nodeId": "22r", "latitude": -9, "longitude": 310 },
+                   { "nodeId": "7p", "latitude": 6, "longitude": 75 },
+                   { "nodeId": "6r", "latitude": 0, "longitude": 75 } ]
  	},
     {
 		"id" : "22r",
 	 	"panorama" : "RehabilitacniCentrum/027HPV.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 22",
-	 	"links": [ { "nodeId": "21r", "latitude": -15, "longitude": 220 },
-                   { "nodeId": "23r", "latitude": -18, "longitude": 90 } ]
+	 	"links": [ { "nodeId": "21r", "latitude": -15, "longitude": 290 },
+                   { "nodeId": "23r", "latitude": -14, "longitude": 185 } ]
  	},
     {
 		"id" : "23r",
