@@ -303,8 +303,8 @@
 		"id" : "4r",
 	 	"panorama" : "RehabilitacniCentrum/004CHl.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 4",
-	 	"links": [ { "nodeId": "3r", "latitude": -7, "longitude": 297 },
-                   { "nodeId": "6r", "latitude": 2, "longitude": 125 }]
+	 	"links": [ { "nodeId": "3r", "latitude": -7, "longitude": 160 },
+                   { "nodeId": "6r", "latitude": 2, "longitude": 333 }]
  	},
     {
 		"id" : "5r",
