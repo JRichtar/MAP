@@ -388,7 +388,7 @@
 		"id" : "15r",
 	 	"panorama" : "RehabilitacniCentrum/106T.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 15",
-	 	"links": [ { "nodeId": "3r", "latitude": 4, "longitude": 304 }]
+	 	"links": [ { "nodeId": "3r", "latitude": 4, "longitude": 192.5 }]
  	},
  	{
 		"id" : "16r",
