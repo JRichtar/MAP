@@ -957,7 +957,7 @@
 		"id" : "10pp",
 		"panorama" : "ParkPredNemocnici/010.jpg",
 	 	"name" : "(1) Park před nemocnicí - 10",
-	 	"links": [ { "nodeId": "22pp", "latitude": -7, "longitude": 127 },
+	 	"links": [ { "nodeId": "21pp", "latitude": -7, "longitude": 127 },
                    { "nodeId": "9pp", "latitude": -7, "longitude": 287 } ]
  	},
     {
@@ -1021,37 +1021,39 @@
 		"id" : "19pp",
 	 	"panorama" : "ParkPredNemocnici/019.jpg",
 	 	"name" : "(1) Park před nemocnicí - 19",
-	 	"links": [ { "nodeId": "20pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "18pp", "latitude": -9, "longitude": 100 } ]
+	 	"links": [ { "nodeId": "20pp", "latitude": -1, "longitude": 343 },
+	 			   { "nodeId": "28pp", "latitude": -1, "longitude": 13 },
+	 			   { "nodeId": "31pp", "latitude": -1, "longitude": 260},
+                   { "nodeId": "18pp", "latitude": -6, "longitude": 180 } ]
  	},
     {
 		"id" : "20pp",
 	 	"panorama" : "ParkPredNemocnici/020.jpg",
 	 	"name" : "(1) Park před nemocnicí - 20",
-	 	"links": [ { "nodeId": "21pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "19pp", "latitude": -9, "longitude": 100 } ]
+	 	"links": [ { "nodeId": "21pp", "latitude": -9, "longitude": 188 },
+                   { "nodeId": "19pp", "latitude": -10, "longitude": 24 } ]
  	},
     {
 		"id" : "21pp",
 	 	"panorama" : "ParkPredNemocnici/021.jpg",
 	 	"name" : "(1) Park před nemocnicí - 21",
-	 	"links": [ { "nodeId": "22pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "30pp", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "32pp", "latitude": -9, "longitude": 150},
-                   { "nodeId": "20pp", "latitude": -9, "longitude": 200 } ]
+	 	"links": [ { "nodeId": "22pp", "latitude": -10, "longitude": 83 },
+	 			   { "nodeId": "10pp", "latitude": -9, "longitude": 60 },
+                   { "nodeId": "20pp", "latitude": -9, "longitude": 260 } ]
  	},
     {
 		"id" : "22pp",
 	 	"panorama" : "ParkPredNemocnici/022.jpg",
 	 	"name" : "(1) Park před nemocnicí - 22",
-	 	"links": [ { "nodeId": "10pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "21pp", "latitude": -9, "longitude": 100 } ]
+	 	"links": [ { "nodeId": "28pp", "latitude": -10, "longitude": 295 },
+	 			   { "nodeId": "26pp", "latitude": -10, "longitude": 263 },
+                   { "nodeId": "21pp", "latitude": -9, "longitude": 73 } ]
  	},
     {
 		"id" : "23pp",
 	 	"panorama" : "ParkPredNemocnici/023.jpg",
 	 	"name" : "(1) Park před nemocnicí - 23",
-	 	"links": [ { "nodeId": "25pp", "latitude": -9, "longitude": 87.5 }]
+	 	"links": [ { "nodeId": "25pp", "latitude": -18, "longitude": 190 }]
  	},
     {
 		"id" : "24pp",
@@ -1063,65 +1065,58 @@
 		"id" : "25pp",
 	 	"panorama" : "ParkPredNemocnici/025.jpg",
 	 	"name" : "(1) Park před nemocnicí - 25",
-	 	"links": [ { "nodeId": "26pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "29pp", "latitude": -9, "longitude": 100 },
-                   { "nodeId": "5pp", "latitude": -9, "longitude": 150 },
-                   { "nodeId": "23pp", "latitude": -9, "longitude": 200 } ]
+	 	"links": [ { "nodeId": "26pp", "latitude": -8, "longitude": 291 },
+                   { "nodeId": "29pp", "latitude": -6, "longitude": 78 },
+                   { "nodeId": "5pp", "latitude": -7, "longitude": 120 },
+                   { "nodeId": "23pp", "latitude": -3, "longitude": 185 } ]
  	},
     {
 		"id" : "26pp",
 	 	"panorama" : "ParkPredNemocnici/026.jpg",
 	 	"name" : "(1) Park před nemocnicí - 26",
-	 	"links": [ { "nodeId": "27pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "25pp", "latitude": -9, "longitude": 100 },
+	 	"links": [ { "nodeId": "22pp", "latitude": -10, "longitude": 259 },
+                   { "nodeId": "25pp", "latitude": -9, "longitude": 68 },
                    { "nodeId": "3k", "latitude": 0, "longitude": 185 } ]
- 	},
-    {
-		"id" : "27pp",
-	 	"panorama" : "ParkPredNemocnici/027.jpg",
-	 	"name" : "(1) Park před nemocnicí - 27",
-	 	"links": [ { "nodeId": "28pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "26pp", "latitude": -9, "longitude": 100 } ]
  	},
     {
 		"id" : "28pp",
 	 	"panorama" : "ParkPredNemocnici/028.jpg",
-	 	"name" : "(1) Park před nemocnicí - 28",
-	 	"links": [ { "nodeId": "30pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "27pp", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(1) Park před nemocnicí - 27",
+	 	"links": [ { "nodeId": "30pp", "latitude": -9, "longitude": 299 },
+                   { "nodeId": "22pp", "latitude": -9, "longitude": 91 } ]
  	},
     {
 		"id" : "29pp",
 	 	"panorama" : "ParkPredNemocnici/029.jpg",
-	 	"name" : "(1) Park před nemocnicí - 29",
-	 	"links": [ { "nodeId": "25pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "9pp", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(1) Park před nemocnicí - 28",
+	 	"links": [ { "nodeId": "25pp", "latitude": -9, "longitude": 293 },
+                   { "nodeId": "9pp", "latitude": -9, "longitude": 107 } ]
  	},
     {
 		"id" : "30pp",
 	 	"panorama" : "ParkPredNemocnici/030.jpg",
-	 	"name" : "(1) Park před nemocnicí - 30",
-	 	"links": [ { "nodeId": "28pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "21pp", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(1) Park před nemocnicí - 29",
+	 	"links": [ { "nodeId": "28pp", "latitude": -9, "longitude": 68 },
+	 			   { "nodeId": "19pp", "latitude": -7, "longitude": 247 } ]
  	},
     {
 		"id" : "31pp",
 	 	"panorama" : "ParkPredNemocnici/032.jpg",
-	 	"name" : "(1) Park před nemocnicí - 31",
-	 	"links": [ { "nodeId": "21pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "32pp", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(1) Park před nemocnicí - 30",
+	 	"links": [ { "nodeId": "19pp", "latitude": -9, "longitude": 268 },
+                   { "nodeId": "32pp", "latitude": -9, "longitude": 88 } ]
  	},
     {
 		"id" : "32pp",
 	 	"panorama" : "ParkPredNemocnici/033.jpg",
-	 	"name" : "(1) Park před nemocnicí - 32",
-	 	"links": [ { "nodeId": "31pp", "latitude": -9, "longitude": 87.5 },
-                   { "nodeId": "33pp", "latitude": -9, "longitude": 100 } ]
+	 	"name" : "(1) Park před nemocnicí - 31",
+	 	"links": [ { "nodeId": "31pp", "latitude": -7, "longitude": 184 },
+                   { "nodeId": "33pp", "latitude": -9, "longitude": 359 } ]
  	},
     {
 		"id" : "33pp",
 	 	"panorama" : "ParkPredNemocnici/034.jpg",
-	 	"name" : "(1) Park před nemocnicí - 33",
-	 	"links": [ { "nodeId": "32pp", "latitude": -9, "longitude": 87.5 }]
+	 	"name" : "(1) Park před nemocnicí - 32",
+	 	"links": [ { "nodeId": "32pp", "latitude": -9, "longitude": 255 }]
  	}
 ]
