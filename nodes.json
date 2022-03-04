@@ -172,7 +172,7 @@
          	"tooltip":"Denní Stacionář",
          	"content_id": "Denni-Stacionar" }],
 	 	"links": [ { "nodeId": "3s", "latitude": 4, "longitude": 89 },
-                   { "nodeId": "5s", "latitude": 4, "longitude": 271 } ]
+                   { "nodeId": "5s", "latitude": 2, "longitude": 271 } ]
  	},
     {
 		"id" : "5s",
@@ -258,15 +258,15 @@
  	},
     {
 		"id" : "1r",
-	 	"panorama" : "RehabilitacniCentrum/001CHl.jpg",
+	 	"panorama" : "RehabilitacniCentrum/001CHL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 1",
-	 	"links": [ { "nodeId": "3r", "latitude": -17, "longitude": 250 },
-                   { "nodeId": "13r", "latitude": 4, "longitude": 125} ]
+	 	"links": [ { "nodeId": "3r", "latitude": -17, "longitude": 63 },
+                   { "nodeId": "13r", "latitude": 3, "longitude": 302} ]
                    
  	},
     {
 		"id" : "2r",
-	 	"panorama" : "RehabilitacniCentrum/002CHl.jpg",
+	 	"panorama" : "RehabilitacniCentrum/002CHL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 2",
   "markers": [{
         	"id": "2rm1",
@@ -282,7 +282,7 @@
  	},
     {
 		"id" : "3r",
-	 	"panorama" : "RehabilitacniCentrum/003CHl.jpg",
+	 	"panorama" : "RehabilitacniCentrum/003CHL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 3",
  "markers": [{
         	"id": "3rm1",
@@ -301,7 +301,7 @@
  	},
     {
 		"id" : "4r",
-	 	"panorama" : "RehabilitacniCentrum/004CHl.jpg",
+	 	"panorama" : "RehabilitacniCentrum/004CHL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 4",
 	 	"links": [ { "nodeId": "3r", "latitude": -7, "longitude": 160 },
                    { "nodeId": "6r", "latitude": 2, "longitude": 333 }]
@@ -334,21 +334,21 @@
  	},
     {
 		"id" : "7r",
-	 	"panorama" : "RehabilitacniCentrum/006SPl.jpg",
+	 	"panorama" : "RehabilitacniCentrum/006SPL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 7",
 	 	"links": [ { "nodeId": "5r", "latitude": 2, "longitude": 278 },
                    { "nodeId": "8r", "latitude": -8, "longitude": 122.5 }]
  	},
     {
 		"id" : "8r",
-	 	"panorama" : "RehabilitacniCentrum/007SPl.jpg",
+	 	"panorama" : "RehabilitacniCentrum/007SPL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 8",
-	 	"links": [ { "nodeId": "7r", "latitude": 2, "longitude": 320 },
-                   { "nodeId": "9r", "latitude": -8, "longitude": 65 }]
+	 	"links": [ { "nodeId": "7r", "latitude": 2, "longitude": 237 },
+                   { "nodeId": "9r", "latitude": -8, "longitude": 345 }]
  	},
     {
 		"id" : "9r",
-	 	"panorama" : "RehabilitacniCentrum/008SPl.jpg",
+	 	"panorama" : "RehabilitacniCentrum/008SPL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 9",
 	 	"links": [ { "nodeId": "8r", "latitude": -14, "longitude": 87.5 }]
  	},
@@ -479,7 +479,7 @@
 		"id" : "2p",
 	 	"panorama" : "PsychiatrickeOddeleni/002P.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 2",
-	 	"links": [ { "nodeId": "4p", "latitude": 3, "longitude": -20 } ]
+	 	"links": [ { "nodeId": "4p", "latitude": 2, "longitude": 38.5 } ]
  	},
     {
 		"id" : "3p",
@@ -491,9 +491,9 @@
 		"id" : "4p",
 	 	"panorama" : "PsychiatrickeOddeleni/004CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 4",
-	 	"links": [ { "nodeId": "1p", "latitude": 5, "longitude": 268 },
-                   { "nodeId": "2p", "latitude": -4, "longitude": 150.5 },
-                   { "nodeId": "5p", "latitude": -10, "longitude": 40 } ]
+	 	"links": [ { "nodeId": "1p", "latitude": 3, "longitude": 159 },
+                   { "nodeId": "2p", "latitude": -4, "longitude": 40 },
+                   { "nodeId": "5p", "latitude": -7, "longitude": 280 } ]
  	},
     {
 		"id" : "5p",
@@ -528,16 +528,16 @@
 	 	"markers": [{
         	"id": "8xm1",
          	"latitude": 0,
-         	"longitude": 340,
+         	"longitude": 315,
          	"image":"asserts/kriz.png",
          	"height": 100,
          	"width": 100,
          	"tooltip":"Psychiatrické oddělení",
          	"content_id": "Psychiatricke-Oddeleni" }],
-	 	"links": [ { "nodeId": "7p", "latitude": 0, "longitude": 2 },
-                   { "nodeId": "10p", "latitude": 6, "longitude": 103.3 },
-                   { "nodeId": "11p", "latitude": -15, "longitude": 145 },
-                   { "nodeId": "12p", "latitude": -20, "longitude": 210 }]
+	 	"links": [ { "nodeId": "7p", "latitude": -1, "longitude": 15 },
+                   { "nodeId": "10p", "latitude": 3, "longitude": 109.3 },
+                   { "nodeId": "11p", "latitude": -9, "longitude": 160 },
+                   { "nodeId": "12p", "latitude": -10, "longitude": 225 }]
  	},
     {
 		"id" : "9p",
@@ -564,9 +564,9 @@
 		"id" : "12p",
 	 	"panorama" : "PsychiatrickeOddeleni/012CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 12",
-	 	"links": [ { "nodeId": "8p", "latitude": -8, "longitude": 90 },
-                   { "nodeId": "11p", "latitude": -6, "longitude": 140 },
-                   { "nodeId": "13p", "latitude": -6, "longitude": 235 }]
+	 	"links": [ { "nodeId": "8p", "latitude": -8, "longitude": 230 },
+                   { "nodeId": "11p", "latitude": -6, "longitude": 290 },
+                   { "nodeId": "13p", "latitude": -6, "longitude": 23 }]
  	},
     {
 		"id" : "13p",
@@ -701,7 +701,7 @@
 	 	 "markers": [{
         	"id": "4cm1",
          	"latitude": 0,
-         	"longitude": 70,
+         	"longitude": 55,
          	"image":"asserts/kriz.png",
          	"height": 100,
          	"width": 100,
@@ -782,7 +782,7 @@
         	"id": "3csm2",
          	"latitude": 352.5,
          	"longitude": 15,
-         	"image":"asserts/kriz.jpg",
+         	"image":"asserts/kriz.png",
          	"height": 100,
          	"width": 100,
          	"tooltip":"Centrální Sterilizace",
