@@ -1,4 +1,5 @@
-{
+[
+	{
 		"id" : "1r",
 	 	"panorama" : "RehabilitacniCentrum/001CHL.jpg",
 	 	"name" : "(1) Rehabilitační centrum - 1",
@@ -59,7 +60,7 @@
 		"id" : "6r",
 	 	"panorama" : "RehabilitacniCentrum/005R.jpg",
 	 	"name" : "(1) Rehabilitační centrum - Přízemí",
-  "markers": [{
+  		"markers": [{
         	"id": "6rm1",
          	"latitude": 0,
          	"longitude": 120,
@@ -211,3 +212,4 @@
 	 	"name" : "(1) Rehabilitační centrum - 25",
 	 	"links": [ { "nodeId": "24r", "latitude": -7, "longitude": 100 }]
  	}
+]

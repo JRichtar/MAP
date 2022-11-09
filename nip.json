@@ -1,6 +1,8 @@
-{ 
+[
+	{ 
 		"id" : "1nip",
 	 	"panorama" : "NIP/001.jpg",
 	 	"name" : "(4) NIP",
 	 	"links": [ { "nodeId": "12", "latitude": 5, "longitude": 132.5 } ]
-}
+	}
+]

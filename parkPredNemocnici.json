@@ -1,4 +1,5 @@
-{
+[
+	{
 		"id" : "1pp",
 	 	"panorama" : "ParkPredNemocnici/001.jpg",
 	 	"name" : "(1) Park před nemocnicí - 1",
@@ -242,3 +243,4 @@
 	 	"name" : "(1) Park před nemocnicí - 32",
 	 	"links": [ { "nodeId": "32pp", "latitude": -9, "longitude": 255 }]
  	}
+]

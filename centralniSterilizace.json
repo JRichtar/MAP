@@ -1,4 +1,5 @@
-{
+[
+	{
 		"id" : "1cs",
 		"panorama" : "CentralniSterilizace/001.jpg",
 		"name" : "(3) Centralni sterilizace, Prádelna, Kotelna - podzemí",
@@ -52,3 +53,4 @@
 	 	"name" : "(3) Centralni sterilizace - 5",
 	 	"links": [ { "nodeId": "4cs", "latitude": 0, "longitude": 290 } ]
  	}
+]
