@@ -1,0 +1,54 @@
+{
+		"id" : "1cs",
+		"panorama" : "CentralniSterilizace/001.jpg",
+		"name" : "(3) Centralni sterilizace, Prádelna, Kotelna - podzemí",
+		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 },
+					{ "nodeId": "6", "latitude": 2, "longitude": 202.5 },
+					{ "nodeId": "1l", "latitude": 1, "longitude": 26 },
+					{ "nodeId": "1k", "latitude": 1, "longitude": 17 } ]
+ 	},
+	{
+		"id" : "2cs",
+	 	"panorama" : "CentralniSterilizace/002.jpg",
+	 	"name" : "(3) Centralni sterilizace - 2",
+	 	"links": [ { "nodeId": "1cs", "latitude": 0, "longitude": -11.5 },
+	 	 		   { "nodeId": "3cs", "latitude": 0, "longitude": 305 } ]
+ 	},
+ 	{
+		"id" : "3cs",
+	 	"panorama" : "CentralniSterilizace/003.jpg",
+	    "name" : "(3) Centralni sterilizace - 3",
+  "markers": [{
+        	"id": "3csm1",
+         	"latitude": 5,
+         	"longitude": 141,
+         	"image":"asserts/kriz.png",
+         	"height": 100,
+         	"width": 100,
+         	"tooltip":"Poskytované Služby",
+         	"content_id": "Poskytovane-Sluzby" },
+           {
+        	"id": "3csm2",
+         	"latitude": 352.5,
+         	"longitude": 15,
+         	"image":"asserts/kriz.png",
+         	"height": 100,
+         	"width": 100,
+         	"tooltip":"Centrální Sterilizace",
+         	"content_id": "Centralni-Sterilizace" }],
+	 	"links": [ { "nodeId": "2cs", "latitude": 0, "longitude": -150 },
+	 	 		   { "nodeId": "4cs", "latitude": 0, "longitude": 162.5 } ]
+ 	 },
+ 	{
+		"id" : "4cs",
+	 	"panorama" : "CentralniSterilizace/004.jpg",
+	 	"name" : "(3) Centralni sterilizace - 4",
+	 	"links": [ { "nodeId": "3cs", "latitude": 0, "longitude": 305 },
+	 			   { "nodeId": "5cs", "latitude": 0, "longitude": 230 } ]
+ 	}, 
+ 	{ 
+		"id" : "5cs",
+	 	"panorama" : "CentralniSterilizace/005.jpg",
+	 	"name" : "(3) Centralni sterilizace - 5",
+	 	"links": [ { "nodeId": "4cs", "latitude": 0, "longitude": 290 } ]
+ 	}
