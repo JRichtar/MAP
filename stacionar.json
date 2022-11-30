@@ -3,9 +3,7 @@
 		"id" : "1s",
 	 	"panorama" : "Stacionar/001V.jpg",
 	 	"name" : "(2) Stacionář - 1",
-	 	"links": [ { "nodeId": "2s", "latitude": -3, "longitude": 283 },
-	 			   { "nodeId": "16", "latitude": -5, "longitude": 95 },
-                   { "nodeId": "8o", "latitude": 0, "longitude": 5 } ]
+	 	"links": [ { "nodeId": "2s", "latitude": -3, "longitude": 283 }]
  	},
     {
 		"id" : "2s",

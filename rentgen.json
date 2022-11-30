@@ -39,10 +39,7 @@
          	"width": 100,
          	"tooltip":"Gerontopsychiatrie",
          	"content_id": "Gerontopsychiatrie" }],
-	 	"links": [ { "nodeId": "6x", "latitude": 0, "longitude": -27.5},
-	 			   { "nodeId": "6", "latitude": 1, "longitude": 67.5 },
-	 			   { "nodeId": "1cs", "latitude": -4, "longitude": 67.5 },
-	 			   { "nodeId": "7c", "latitude": 6, "longitude": 67.5 } ]
+	 	"links": [ { "nodeId": "6x", "latitude": 0, "longitude": -27.5} ]
  	},
  	{ 
 		"id" : "6x",

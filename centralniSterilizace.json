@@ -3,10 +3,7 @@
 		"id" : "1cs",
 		"panorama" : "CentralniSterilizace/001.jpg",
 		"name" : "(3) Centralni sterilizace, Prádelna, Kotelna - podzemí",
-		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 },
-					{ "nodeId": "6", "latitude": 2, "longitude": 202.5 },
-					{ "nodeId": "1l", "latitude": 1, "longitude": 26 },
-					{ "nodeId": "1k", "latitude": 1, "longitude": 17 } ]
+		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 } ]
  	},
 	{
 		"id" : "2cs",

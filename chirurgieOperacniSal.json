@@ -63,10 +63,7 @@
 	 	"panorama" : "ChirurgieOperacniSal/007CH.jpg",
 	 	"name" : "(2) Chirurgie - 3. patro",
 	 	"links": [ { "nodeId": "4c", "latitude": 0, "longitude": 191 },
-	 			   { "nodeId": "8c", "latitude": 1, "longitude": 8.5 },
-	 			   { "nodeId": "5x", "latitude": 4, "longitude": 77.5 },
-	 			   { "nodeId": "1cs", "latitude": -6, "longitude": 77.5 },
-	 			   { "nodeId": "6", "latitude": -1, "longitude": 77.5 } ]
+	 			   { "nodeId": "8c", "latitude": 1, "longitude": 8.5 } ]
  	},
     {
 		"id" : "8c",

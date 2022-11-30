@@ -57,7 +57,6 @@
          	"content_id":"Ockovaci_Centrum" 
          	}],
 	 	"links": [ { "nodeId": "6o", "latitude": 2, "longitude": 45 },
-                   { "nodeId": "6r", "latitude": 3, "longitude": 227.5 },
                    { "nodeId": "8o", "latitude": 2, "longitude": -25 } ]
  	},
     {
@@ -65,14 +64,12 @@
 	 	"panorama" : "OckovaciCentrum/008V.jpg",
 	 	"name" : "(2) Očkovací centrum - 8",
 	 	"links": [ { "nodeId": "7o", "latitude": 1, "longitude": 0 },
-                   { "nodeId": "1s", "latitude": 0, "longitude": 267.5 },
                    { "nodeId": "9o", "latitude": -3, "longitude": 160 } ]
  	},
     {
 		"id" : "9o",
 	 	"panorama" : "OckovaciCentrum/009V.jpg",
 	 	"name" : "(2) Očkovací centrum - 9",
-	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 },
-	 			   { "nodeId": "1j", "latitude": 4, "longitude": 86 } ]
+	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 } ]
  	}
 ]

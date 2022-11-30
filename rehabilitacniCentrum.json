@@ -71,9 +71,7 @@
          	"content_id": "Rehabilitacni-Ambulance" }],
 	 	"links": [ { "nodeId": "4r", "latitude": 2, "longitude": 66.5 },
                    { "nodeId": "5r", "latitude": -11, "longitude": 277.5 },
-                   { "nodeId": "21r", "latitude": 5, "longitude": -12.5 },
-                   { "nodeId": "7p", "latitude": 0, "longitude": -12.5 },
-                   { "nodeId": "7o", "latitude": 0, "longitude": 181.5 }]
+                   { "nodeId": "21r", "latitude": 5, "longitude": -12.5 }]
  	},
     {
 		"id" : "7r",
@@ -182,7 +180,6 @@
 	 	"name" : "(1) Rehabilitační centrum - 3. patro",
 	 	"links": [ { "nodeId": "17r", "latitude": -8, "longitude": 150 },
                    { "nodeId": "22r", "latitude": -9, "longitude": 310 },
-                   { "nodeId": "7p", "latitude": 6, "longitude": 75 },
                    { "nodeId": "6r", "latitude": 0, "longitude": 75 } ]
  	},
     {

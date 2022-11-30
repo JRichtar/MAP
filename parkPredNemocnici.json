@@ -12,8 +12,7 @@
          	"width": 100,
          	"tooltip":"Park Pred Nemocnici",
          	"content_id": "Park-Pred-Nemocnici" }],
-	 	"links": [ { "nodeId": "2pp", "latitude": -7, "longitude": 360 },
-                   { "nodeId": "16", "latitude": -7, "longitude": 180 } ]
+	 	"links": [ { "nodeId": "2pp", "latitude": -7, "longitude": 360 } ]
  	},
  	{
 		"id" : "2pp",
@@ -36,8 +35,7 @@
 		"id" : "4pp",
 	 	"panorama" : "ParkPredNemocnici/004.jpg",
 	 	"name" : "(1) Park před nemocnicí - 4",
-	 	"links": [ { "nodeId": "15", "latitude": 0, "longitude": 246 },
-                   { "nodeId": "3pp", "latitude": -4, "longitude": 103 } ]
+	 	"links": [ { "nodeId": "3pp", "latitude": -4, "longitude": 103 } ]
  	},
     {
 		"id" : "5pp",
@@ -199,8 +197,7 @@
 	 	"panorama" : "ParkPredNemocnici/026.jpg",
 	 	"name" : "(1) Park před nemocnicí - 26",
 	 	"links": [ { "nodeId": "22pp", "latitude": -10, "longitude": 259 },
-                   { "nodeId": "25pp", "latitude": -9, "longitude": 68 },
-                   { "nodeId": "3k", "latitude": 0, "longitude": 185 } ]
+                   { "nodeId": "25pp", "latitude": -9, "longitude": 68 } ]
  	},
     {
 		"id" : "28pp",

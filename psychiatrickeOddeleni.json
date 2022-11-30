@@ -47,9 +47,7 @@
 	 	"panorama" : "PsychiatrickeOddeleni/007CH.jpg",
 	 	"name" : "(3) Psychiatrické oddělení - 2. patro",
 	 	"links": [ { "nodeId": "6p", "latitude": -7, "longitude": 161 },
-                   { "nodeId": "8p", "latitude": 7, "longitude": 317 },
-                   { "nodeId": "6r", "latitude": 3, "longitude": -90 },
-                   { "nodeId": "21r", "latitude": 9, "longitude": -90 } ]
+                   { "nodeId": "8p", "latitude": 7, "longitude": 317 } ]
  	},
     {
 		"id" : "8p",
