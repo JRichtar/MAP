@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+    <title>Virtuální prohlídka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='utf-8' />
+    <meta name='description' content='' />
+    <meta name='keywords' content='' />
+    <meta name='author' content='' />
+    <meta name='robots' content='all' />
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <link href='/favicon.png' rel='shortcut icon' type='image/png' />
+
+    <!-- Photo sphere viewer css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/virtual-tour.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.min.css" />
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="styly.css" />
+
+    <!-- Photo sphere viewer js -->
+    <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uevent@2/browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/virtual-tour.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.min.js"></script>
+
+    <!-- Our JS -->
+    <script src="Main.js"></script>
+  </head>
+  <body>
+    <div id="viewer" style="width: 100vw; height: 100vh;"></div>
+  </body>
+</html>
+<!--Templaty do markeru-->
+<script type="text/template" id="Informace">
+     <link rel="stylesheet" href="styly.css" />
+     <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>INFORMACE</h1>
+    <p>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/category/nezarazene/">Aktuality</a><br>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/pro-klienty-a-navstevy/informace-pro-navstevy/">Informace pro návštěvníky</a><br>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/pro-klienty-a-navstevy/co-prinest-a-co-nenosit/">Co přinést a co nenosit</a>
+    </p>
+</script>
+<script type="text/template" id="Recepce-Nemocnice-Ostrov">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>NEMOCNICE OSTROV</h1>
+    <p>Nemocnice Ostrov je certifikované zařízení, které se maximálně zaměřuje na klientský přístup a kvalitu<br>
+    poskytovaných služeb.  Jako základní hodnoty uznává profesionalitu, efektivitu a spolupráci.<br>
+    </p>
+    <p>Prosazuje individuální, lidský přístup a empatii. Snaží se, aby se klienti s důvěrou ve schopnosti a odbornosti<br>
+    lékařů a sester stali jejich partnerem a aktivně spolupracovali při své léčbě.
+    </p>
+    <p>Nemocnice zajišťuje 24 hodinový provoz včetně dalších <a href="https://www.pentahospitals.cz/nemocnice-ostrov/hrazene-sluzby/">nadstandardních a doplňkových služeb</a>. Změny realizované v <br>posledních letech ve všech oblastech učinily z nemocnice respektované, kvalitní a vyhledávané zdravotnické zařízení <br>v regionu.</p>
+    <br>
+    <p>Unikátní struktura oborů umožňuje poskytnout klientovi komplexní péči po celou dobu průběhu řešení jeho zdravotního <br>
+    problému a ve všech potřebných souvislostech.</p>
+    <br>
+    <p> Bezbariérový přístup je zajištěn hlavním vchodem a do parku, je umožněn na většině oddělení i na WC a do koupelny, v přízemí
+        <br>
+     ve vstupní hale je k dispozici WC pro vozíčkáře.
+    </p>
+    <br>
+    <p>Dne 25.10.2019 Nemocnice Ostrov obdržela Certifikát kvality a bezpečí.
+    </p>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Park-Pred-Nemocnici">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>PARK PŘED NEMOCNICÍ</h1>
+    <p>
+        Park u Nemocnice Ostrov je v provozu od roku 2013 a je přístupný široké veřejnosti i pacientům nemocnice po celý den vždy od 1. dubna do 31. října. Chodí sem školy a školky, v době letních prázdnin i dětské tábory. O víkendech tu celé rodiny využívají ohniště či multifunkční hřiště. 
+    </p>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Rehabilitacni-Ambulance">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1> REHABILITAČNÍ AMBULANCE </h1>
+    <p>
+        Ambulantní část rehabilitačního oddělení se nachází v přízemí pavilonu B. Rehabilitační ambulance je vybavena <br>moderní vodoléčbou, bazénkem na cvičení, Kneippovým <br>chodníkem, tělocvičnami, přístroji <br>
+        pro fyzikální terapii – laser, magnet, ultrazvuk, včetně<br> rázové vlny. Součástí moderní vodoléčby jsou kromě bazénku 
+        <br>
+        také k dispozici 3 celotělové vany s LCD monitory. 
+    </p>
+    <h2>Specializace rehabilitační ambulance:</h2>
+    <ul>
+        <li>Vojtova reflexní lokomoce v dětském věku</li>
+        <li>Vojtova reflexní lokomoce v dospělém věku</li>
+        <li>Rehabilitace zaměřená na terapii dysfunkce svalů pánevního dna, <br>
+        stresovou inkontinenci žen a inkontinenci mužů po operaci prostaty, bolestivou menstruaci.</li>
+        <li>Léčba funkční sterility metodou l. Mojžíšové</li>
+        <li>DNS-dynamická neuromuskulární stabilizace
+        dle prof. P. Koláře tzv. Pražská škola</li>
+        <li>SM systém dle Dr. Smíška</li>
+        <li>Lymfatické masáže</li>
+        <li>Měkké a mobilizační techniky</li>
+        <li>LTV individuální analytické</li>
+        <li>Vertikalizace a nácvik chůze</li>
+        <li>Fyzikální terapie: magnetoterapie, elektroléčba, ultrazvuk</li>
+        <li>Vodoléčba: vířivky na končetiny a celotělová vana</li>
+        <li>Rázová vlna, Kineziotaping, Laserterapie </li>
+        <li>Ergoterapie</li>
+    </ul>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Denni-Stacionar">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>DENNÍ STACIONÁŘ</h1>
+    <p> Nemocnice Ostrov, psychiatrické a psychoterapeutické pracoviště <br>nabízí od 25. 4. 2016 formou denního stacionáře pro klienty s psychotickým onemocněním, <br>
+    s úzkostnými, osobnostními, psychosomatickými a některými poruchami <br>nálady psychoterapeutický program.
+    </p>
+    <p>Program probíhá 5x v týdnu, v době od 8:30 do 15:20 hodin v budově B.<br>
+    Jde o formu otevřené skupiny, tj. skupina je v průběhu doplňována novými klienty.
+    </p>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Fyzioterapie-fyzikalni-rerapie-ergoterapie-kuneziotaping">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+     <h1>FYZIOTERAPIE</h1>
+    <p>Diagnostika a léčba funkčních poruch hybné soustavy, Léčba funkční sterility,<br>
+     Metoda senzomotorické stimulace, Vývojová kineziologie v manuální medicíně,<br>
+      Vojtova reflexní lokomoce v dětském věku, Vojtova reflexní lokomoce v dospělém věku,<br>
+       Reflexní masáž, Manuální lymfomasáž, Taping
+    </p>
+    <h1>FYZIKÁLNÍ TERAPIE</h1>
+    <p>Elektroléčba s vakuovou jednotkou, Ultrazvuk, Magnetoterapie,<br> Laser, Rázová vlna, Parafango, Vířivá koupel na horní končetiny,<br> Vířivá koupel na dolní končetiny, Celotělová vana
+    </p>
+    <br>
+    <h1> ERGOTERAPIE</h1>
+    <p>
+        Ergoterapie – je léčebná metoda. Člověk může zlepšit své zdraví a kvalitu života tím,<br>
+         že se aktivně zapojuje do zaměstnání, která pro něj mohou být významná a smysluplná.<br>
+          Aktivitu či zaměstnávání ergoterapie vnímá současně jako prostředek i cíl léčby.<br>
+           Jestliže tato aktivita pak podporuje tělesné i psychické funkce, napomáhá současně návratu funkčních schopností.    
+    </p>
+    <br>
+    <h1>KINEZIOTAPING</h1>
+    <p>
+        Taping je fixace postižené struktury (kloubu, vazu, šlachy, svalu) 
+        <br>
+        vytvořením dynamické ortézy pomocí speciálních pásek aplikovaných přímo na kůži. Zkracuje dobu nutného léčebného zásahu.<br>
+        Cena: aplikace – 50,-Kč, jeden dílek pásky – 5,-Kč
+    </p>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Rehabilitacni-oddeleni-luzka">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>REHABILITAČNÍ ODDĚLENÍ – LŮŽKA</h1>
+    Rehabilitační lůžkové oddělení poskytuje včasnou komplexní rehabilitační péči.<br>
+     Na oddělení mohou být pacienti hospitalizováni pouze dva týdny, proto přednostně přijímá pacienty s akutními potížemi,<br>
+    po operacích pohybového aparátu, s neurologickými onemocněními,<br>
+    po úrazech – dle kapacitní možnosti oddělení i ambulance.<br>
+    Oddělení nepřijímá stavy po akutních CMP (cévní mozkové příhody).<br>
+    Rehabilitační oddělení má k dispozici 31 lůžek,<br>
+    která jsou rozdělena do 2 jednolůžkových nadstandardních pokojů (s poplatkem),<br>
+    3 pokojů třílůžkových a 5 prostorných čtyřlůžkových pokojů.<br>
+    Všechny pokoje mají vlastní koupelnu se sprchovým koutem a WC vč.<br> nutných rehabilitačních pomůcek. Každý pokoj je vybaven speciálními <br>rehabilitačními lůžky, televizí, jídelním stolem se židlemi.<br> Připojení k internetu je bezplatné.
+    <h2>INDIKACE K LÉČBĚ</h2>
+        <ul>
+            <li>stavy po traumatech (úrazech) a operacích pohybového aparátu, včetně kloubních náhrad</li>
+            <li>algické vertebrogenní syndromy, stavy po operacích páteře</li>
+            <li>onemocnění nervů, nervových kořenů a pletení</li>
+            <li>kloubní onemocnění různé etiologie<br>
+            (zánětlivá kloubní onemocnění, osteoartrózy, artropatie, spondylopatie, dorsopatie)</li>
+            <li>onemocnění měkkých tkání, pojivové tkáně, tortikollis</li>
+            <li>vývojové poruchy skeletu po konzervativní i operační terapii
+            <br>
+            (skoliózy, kyfoskoliózy, pes equinovarus, LCC…)</li>
+            <li>komplikace traumat, pooperačních stavů s projevy na pohyb. aparátupřípadně jiná onemocnění
+            <br>
+            ve fázi, kdy převažuje potřeba intenzivní rehabilitační péče</li>
+        </ul>
+    <h2>PACIENTŮM NABÍZÍ V RÁMCI POSKYTOVANÉ LÉČBY</h2>
+        <ul>
+            <li>fyzioterapeutickou péči</li>
+            <li>individuální LTV techniky s ohledem na typ postižení a stav pacienta</li>
+            <li>mobilizační techniky páteře a periferních kloubů a techniky měkkých tkání</li>
+            <li>ergoterapii cílenou a kondiční</li>
+            <li>nácvik používání kompenzačních pomůcek</li>
+            <li>vodoléčbu (vířivé koupele celotělové, na horní a dolní končetiny, šlapací koupele)</li>
+            <li>elektroterapii, magnetoterapii, ultrazvuk, laserterapii, reflexní terapii,<br>
+            analgetickou fyzikální léčbu, selektivní stimulaci svalů, termoterapii, kryoterapii</li>
+        </ul>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Gerontopsychiatrie">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>GERONTOPSYCHIATRIE</h1>
+    <p>Od ledna 2021 došlo k rozšíření psychiatrického a psychoterapeutického oddělení<br>
+    Nemocnice Ostrov o gerontopsychiatrickou část s 23ti lůžky v 1.patře hlavní budovy A
+    Nemocnice Ostrov.
+    </p>
+    <p>Jedná se o akutní diagnostické a léčebné oddělení. Součástí je též psychosociální rehabilitace.<br>
+    V rámci lůžkového oddělení je též v provozu denní stacionář a ambulance.<>br Lůžkové oddělení slouží pacientům starším 65-ti let (mužům i ženám)<br>
+    s minimálně částečně zachovanou soběstačností.<br>
+    Délka hospitalizace je individuální dle potřeb pacienta.
+    </p>
+    <p>Hlavním cílem celého projektu je zlepšení kvality života<br>
+    pacientů/seniorů a návrat do původního domácího prostředí. 
+    </p>
+    <h2>V RÁMCI HOSPITALIZACE NABÍZÍME</h2>
+    <ul>
+        <li>diagnostiku poruch paměti, optimalizaci farmakoterapie</li>
+        <li>v rámci vstupního screeningu kompletní laboratorní vyšetření a CT mozku</li>
+        <li>detailní diagnostiku duševního onemocnění</li>
+        <li>diagnostiku poruch paměti včetně neuropsychologických testů</li>
+        <li>diagnostiku funkčních schopností</li>
+        <li>optimalizaci farmakoterapie</li>
+        <li>možnost využití interních konsilií a provedení zobrazovacích metod</li>
+        <li>léčebnou péči poskytovanou 24 hodin/ 7 dní v týdnu</li>
+    </ul>
+    <footer>
+        <h2>KONTAKT</h2>
+        <p>
+            <b>Akutní psychiatrie - sesterna<b><br>
+            Tel.:353 364 116<br>
+            <b>Psychoterapeutické oddělení-sesterna<b><br>
+            Tel.: 353 364 115<br>
+            <b>Gerontopsychiatrie a Denní stacionář</b><br>
+            MgA.Stella Turková, MBA<br>
+            Tel.:739 567 064<br>
+            <b>Psychiatrická ambulance</b>
+            Tel.: 353 364 158<br>
+            <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+        </p>
+    </footer>
+</script>
+<script type="text/template" id="Radiodiagnosticke-Oddeleni">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>RADIAGNOSTICKÉ ODDĚLENÍ</h1>
+    <p>Oddělení je umístěno v 1. patře budovy A, Nemocnice Ostrov. Toto oddělení je nelůžkové.
+    </p>
+    <br>
+    <p>Služby radiodiagnostického oddělení využívají nejen oddělení naší nemocnice,<br>
+    ale i soukromí ambulantní lékaři. Všechna pracoviště jsou digitalizovaná.<br> Jsme napojeni na systém ePACS, který umožňuje komunikaci s jinými digitalizovanými zdravotnickými<br>
+    pracovišti v celé České republice, a je tak umožněna rychlá a bezpečná výměna obrazové dokumentace.
+    </p><br>
+    <p>V roce 2021 pořídila Nemocnice Ostrov nový rentgenový přístroj od<br> společnosti Samsung s novou technologií, který přinese pacientům řadu výhod.<br>
+    Od zkrácení čekací doby až po nižší dávku záření. Při jednorázovém vyšetření to nehraje až tak zásadní roli,<br>
+    ale pro opakované návštěvy jde o významný přínos pro pacienty. Diagnostika je také přesnější,<br>
+    obraz ostřejší, lépe se hodnotí a má dokonalejší postprocesing.<br>
+    Pro pacienty a laboranty je tak skiagrafické vyšetření mnohem rychlejší,<br> protože načtení obrazu trvá pouhé tři sekundy a není nutné čekat na zpracování snímku jako dřív.
+    </p><br>
+    <p>Rentgen se používám především k vyšetření skeletu a plic, v menší míře k orientačnímu vyšetření<br>
+    dutiny břišní. Indikací je celá řada, ze stran chirurgů jde v největší míře o úrazy,<br>
+    ortopedi indikují vyšetření kloubů a páteře, internisté a obvodní lékaři<br>
+    se neobejdou bez rentgenu vyšetření plic k vyloučení plicních zánětů, tumorů či jiných patologů.
+    </p><br>
+    <p>Od ledna 2010 je součástí RDG oddělení počítačový tomograf-CT. V roce 2019 došlo k obnově CT přístroje.<br>
+    Byl pořízen víceřadý 80-slice CT přístroj AQUILION LIGHTNING-SP (Toshiba).<br> Hlavní předností nového přístroje je snížení radiační dávky až o třetinu.
+    </p><br>
+    <p>RDG oddělení provádí především diagnostická vyšetření (RTG, USG, CT),<br> ale i diapeutické výkony – radikuloterapie – PRT – opichy nervových kořenů<br> s okamžitou úlevou od bolesti páteře ve spolupráci s RHB oddělením a neurologickou ambulancí.<br>
+    Obstřiky pomáhají oddálit operační léčbu páteře, která je takzvaně posledním řešením a negarantuje<br>
+    vždy dobrý výsledek. Díky přesné diagnostice CT tak umí naši lékaři aplikovat směs léčiv<br>
+     zhruba jeden milimetr od míšního kořene a tím i výrazně zvýšit její účinnost. 
+    </p>
+    <footer>
+        <p><h2>PRACOVNÍ DOBA</h2>
+            Pracovní doba: 7:00-15:30 (polední pauza 12:30-13:00)<br>
+            Pohotovost: 15:30-7:00<br>
+            <h2>KONTAKT</h2>
+            <b>Recepce RDG, objednávky na CT i SONO<b><br>
+            Tel.:353 364 174<br>
+            Email>rdgostrov@nemocniceostrov.cz
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+        </p>
+    </footer>
+</script>
+<script type="text/template" id ="Psychiatricke-Oddeleni">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>PSYCHIATRICKÉ ODDĚLENÍ<h1>
+    <p>Psychiatrické oddělení v Nemocnice Ostrov je jediným lůžkovým psychiatrickým zařízením<br>
+    v Karlovarském kraji. Poskytuje diagnostickou, léčebnou a preventivní péči hrazenou z prostředků<br>
+    veřejného zdravotnictví. Oddělení se nachází v budově „A“,<br>
+    kde jsou gerontopsychiatrická lůžka a v budově „B“ jsou v 1. patře lůžka akutní péče,<br>
+    ve 2. patře lůžka psychoterapeutické části oddělení. Celková lůžková kapacita je 75 lůžek.<br>
+    Lůžková péče je poskytována nepřetržitě.
+    </p>
+    <h2>AKUTNÍ PSYCHITRICKÉ ODDĚLENÍ</h2>
+    <p>Zde se léčí pacienti ve věkové kategorii 18+. Oddělení poskytuje léčbu<br> akutních psychiatrických stavů, kde základem je farmakoterapie.<br>
+    Dále se využívají podpůrné psychoterapeutické, psychosociální a arteterapeutické<br> programy a relaxační techniky. Výhledově se bude využívat i repetitivní transkraniální <br>
+    magnetická stimulace.
+    </p>
+    <br>
+    <h2>PSYCHOTERAPEUTICKÉ ODDĚLENÍ<h2>
+    <p>Zde se léčí pacienti ve věkové kategorii 18+. Léčba je vhodná pro motivované pacienty s poruchami<br>
+    nálady, psychosomatickými obtížemi, neurotickými poruchami,<br>
+    které mohou spočívat v osobních problémech, postojích a mezilidských vztazích či vznikají působením stresu. Též je určena pro pacienty s psychotickým onemocněním v remisi,<br>
+    pro které je přímo upravený terapeutický program.<br>
+    Zdeákladem léčby je farmakoterapie a psychoterapie. V rámci skupinové psychoterapie<br>
+    pacienti sdílejí vlastní problémy, otevřeně komunikují s druhými a přijímají zpětnou vazbu<br>
+    od ostatních členů skupiny. Léčba není léčbou klidem ani odpočinkem („na lůžku“),<br>
+    ale skládá se z různorodého celodenního programu.
+    Léčba není léčbou klidem ani odpočinkem („na lůžku“), ale skládá se<br>
+    z různorodého celodenního programu.
+    </p>
+    <br>
+    <h2>FORMY TERAPIE<h2>
+    <ul>
+        <li>skupinová psychoterapie</li>
+        <li>arteterapie</li>
+        <li>dramaterapie</li>
+        <li>muzikoterapie</li>
+        <li>relaxační techniky</li>
+        <li>kognitivní trénink</li>
+        <li>práce s tělem</li>
+    </ul>
+    <h2>JAK SE K LÉČBĚ OBĚDNAT?<h2>
+    <p>Výhodou je doporučení od praktického lékaře, ambulantního psychiatra,<br> klinického psychologa či jiného specialisty. Zájemci jsou objednáni k indikačnímu pohovoru,<br>
+    při kterém se blíže seznámí s chodem oddělení, vyjasní si očekávání<br>
+    a terapeutickou zakázku, zváží se indikace (vhodnost či nevhodnost) léčby pro daného zájemce.
+    </p>
+    <p>Ke vstupnímu rozhovoru je třeba se objednat telefonicky na telefonním čísle 
+    <b>353 364 115<b>.<br>
+    Po vstupním rozhovoru bude domluven termín přijetí (v případě indikace k hospitalizaci),<br>
+    předběžná délka trvání hospitalizace, případně doporučena jiná forma léčby.
+    </p>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Chirurgicka_Ambulance">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>Chirurgická ambulance</h1>
+    <p>Chirurgická ambulance se nachází v přízemí Nemocnice Ostrov a je určena pro všechna akutní<br>
+    i chronická onemocnění chirurgické povahy a úrazy v režimu pondělí až pátek.<br>
+    Pohotovostní služba není zajišťována.
+    </p>
+    <br>
+    <p>Ambulance zároveň poskytuje konziliární chirurgickou péči pro všechna ostatní oddělení nemocnice.<br>
+    Chirurgická odborná ambulance poskytuje péči řadě sportovních klubů,<br>
+    např. HC Energie Karlovy Vary, VK Karlovarsko atd.
+    </p>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Operacni-Sal">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>OPERAČNÍ SÁL</h1>
+    <p>
+    V nemocnici jsou k dispozici 2 operační sály s nejmodernějším vybavením,<br>
+    které jsou součástí oddělení jednodenní ortopedické péče.<br> 
+    Nemocnice vykonává pouze ambulantní výkony,<br>
+    po kterých pacienti odcházejí v tentýž den domů.
+    </p>
+    <br>
+    <h2>OPERAČNÍ VÝKONY VYKONÁVANÉ V SÁLECH</h2>
+    <ul>
+        <li>artroskopie kolena</li>
+        <li>artroskopická plastika LCA</li>
+        <li>rekonstrukční artroskopie kolena</li>
+        <li>artroskopická stabilizace ramena</li>
+        <li>artroskopie hlezna</li>
+        <li>artroskopie lokte</li>
+        <li>artroskopie paty</li>
+        <li>artroskopie zápěstí</li>
+        <li>operace vbočených palců</li>
+        <li>operace příčné klenby</li>
+        <li>operace kladívkového prstu</li>
+        <li>operace patních výrůstků</li>
+        <li>operace tenisového lokte</li>
+        <li>operace Dupuytrenovy kontraktury</li>
+        <li>vynětí OS materiálu</li>
+        <li>odstranění burzy / nezhoubného nádoru</li>
+        <li>operace lupavého prstu</li>
+        <li>operace De Quervainovy choroby</li>
+        <li>operace karpálních tunelů</li>
+    </ul>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Poskytovane-Sluzby">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>POSKYTOVANÉ SLUŽBY CENTRÁLNÍ STERILIZACE</h1>
+    <ul>
+        <li>Sterilizace nasycenou parou při teplotě 121°C, doba sterilizační expozice 20 minut,<br>
+        vhodná pro předměty z kovu, skla, porcelánu,<br>
+        papíru, gumy, textilu a materiálů odolných vůči sterilizačním podmínkám.</li>
+        <li>Sterilizace plynné směsi formaldehydu s vodní párou při teplotě 65°C,<br>
+        doba sterilizační expozice 30 minut, vhodná pro termolabilní materiál,<br>
+        převážně plastů – dle doporučení výrobce ZP.</li>
+        <li>Možnost dodání jednorázových sterilizačních obalů, nebo zabalení ZP
+        <br>
+        do jednorázových sterilizačních obalů dle požadavků zákazníka.</li>
+        <li>Před spuštěním vlastní sterilizace jsou sterilizátory denně testovány
+        <br>
+        pomocí vakuového a Bowie – dick testu.</li>
+        <li>Do každé vsázky jsou vkládány multiparametrové indikátory,<br>
+        které se po ukončení sterilizačního procesu vyhodnocují.</li>
+        <li>V případě sterilizace ZP s dutinou se kontrola provádí s použitím<br>zkušebního tělesa podle určené normy.</li>
+        <li>1x měsíčně dle platné legislativy se provádí testování biologickými systémy.</li>
+        <li>Každý sterilizační proces je elektronicky monitorován, vyhodnocen a dokumentován.</li>
+        <li>Vysterilizovaný ZP má na obalu uveden datum sterilizace (datum expirace si zákazník<br>
+        doplní sám dle způsobu uložení ZP), razítko CS, kód pracovníka<br>zodpovědného za sterilizaci, kontrolu celistvosti obalu a kontrolu změny barvy procesního indikátoru.</li>
+        <li>Příjem zakázek ke sterilizaci je ve všední den, a to kdykoliv v pracovní době.</li>
+        <li>Výdej vysterilizovaných ZP teplotou 121°C je do druhého dne a teplotou 65°C dle domluvy.</li>
+    </ul>
+    <footer>
+        <h2>KONTAKT</h2>
+        <p>
+        <b>Iva Hýčková</b><br>
+        Telefon:353 364 228
+        </p>
+        <br>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Centralni-Sterilizace">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>CENTRÁLNÍ SERILIZACE</h1>
+    <p>
+    Moderní pracoviště, které odpovídá vysokým požadavkům, se nachází v suterénu<br>
+    hlavní budovy nemocnice.
+    </p>
+    <br>
+    <h2>VEDOUCÍ CENTRÁLNÍ STERILIZACE</h2>
+    <p>
+    Centrální sterilizace je specializované zdravotnické pracoviště. Je základním prvkem předcházení<br>
+    nemocničních infekcí a neoddělitelnou součástí zajištění bezpečné zdravotní péče. 
+    </p>
+    <p>Toto moderní pracoviště, které odpovídá vysokým požadavkům, se nachází v suterénu hlavní budovy<br>
+    Nemocnice Ostrov.
+    </p>
+    <p>Zajišťuje podle potřeb a požadavků příjem a výdej materiálu formou rozvážkové služby,<br>
+    dále předsterilizační přípravu, setování, balení a sterilizaci obvazového materiálu,<br>
+    pomůcek a nástrojů pro jednotlivá oddělení nemocnice včetně operačních sálů, soukromé ordinace a další<br>
+    externí subjekty.
+    </p>
+    <footer>
+        <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>
+<script type="text/template" id="Ockovaci_Centrum">
+    <link rel="stylesheet" href="styly.css" />
+    <header> <a href="https://www.pentahospitals.cz/"><img src="asserts/Logo.png" alt="logo"> </a>
+    </header>
+    <h1>OČKOVACÍ MÍSTO V NEMOCNICI OSTROV</h1>
+    <p>Očkovací místo proti covid-19 se v Nemocnici Ostrov nachází v nové budově B, přízemí.<br>
+    Všichni zájemci o očkování se musí před návštěvou zaregistrovat
+    <br>
+    online prostřednictvím Centrálního rezervačního systému na crs.uzis.cz nebo registrace.mzcr.cz. Je schopno odbavit až 150 zájemců denně.
+    </p>
+    <footer><p> Provozní doba:<br>
+    <br>
+    Úterý - Pátek 8:00 -14:00 hod.<br>
+    <br>
+    Telefonní kontakt: 353 364 360
+        </p>
+    <br>
+    <a href="https://www.pentahospitals.cz/nemocnice-ostrov/kontakty/">Více kontaktů</a>
+    </footer>
+</script>

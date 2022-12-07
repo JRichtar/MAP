@@ -1,0 +1,83 @@
+[
+	{
+		"id" : "1x",
+		"panorama" : "Rentgen/001R.jpg",
+		"name" : "(3) Rentgen - 1",
+		"links": [  { "nodeId": "4x", "latitude": 0, "longitude": 73.5 },
+					{ "nodeId": "7x", "latitude": 0, "longitude": 288.5 } ]
+ 	},
+	{
+		"id" : "2x",
+	 	"panorama" : "Rentgen/002CT.jpg",
+	 	"name" : "(3) Rentgen - 2",
+	 	"links": [ { "nodeId": "3x", "latitude": 0, "longitude": 2.5 },
+	 	 		   { "nodeId": "7x", "latitude": 0, "longitude": 225 } ]
+ 	},
+ 	{
+		"id" : "3x",
+	 	"panorama" : "Rentgen/003CT.jpg",
+	 	"name" : "(3) Rentgen - 3",
+	 	"links": [ { "nodeId": "2x", "latitude": 5, "longitude": 282.5 } ]
+ 	},
+ 	{
+		"id" : "4x",
+	 	"panorama" : "Rentgen/004LZ.jpg",
+	 	"name" : "(3) Rentgen - 4",
+	 	"links": [ { "nodeId": "1x", "latitude": 3, "longitude": 283 },
+	 			   { "nodeId": "7x", "latitude": 3, "longitude": 50 } ]
+ 	}, 
+ 	{ 
+		"id" : "5x",
+	 	"panorama" : "Rentgen/005CH.jpg",
+	 	"name" : "(3) Rentgen - 1. patro",
+ 		 "markers": [{
+        	"id": "10m1",
+         	"latitude": 0,
+         	"longitude": 150,
+         	"image":"asserts/kriz.png",
+         	"height": 100,
+         	"width": 100,
+         	"tooltip":"Gerontopsychiatrie",
+         	"content_id": "Gerontopsychiatrie" }],
+	 	"links": [ { "nodeId": "6x", "latitude": 0, "longitude": -27.5} ]
+ 	},
+ 	{ 
+		"id" : "6x",
+	 	"panorama" : "Rentgen/006R.jpg",
+	 	"name" : "(3) Rentgen - 6",
+ 		 "markers": [{
+        	"id": "6xm1",
+         	"latitude": 0,
+         	"longitude": 305,
+         	"image":"asserts/kriz.png",
+         	"height": 100,
+         	"width": 100,
+         	"tooltip":"Radiodiagnostické oddělení",
+         	"content_id": "Radiodiagnosticke-Oddeleni" }],
+	 	"links": [ { "nodeId": "5x", "latitude": -13, "longitude": -90 },
+	 			   { "nodeId": "7x", "latitude": -22, "longitude": 97.5 } ]
+ 	},
+ 	{
+		"id" : "7x",
+	 	"panorama" : "Rentgen/007CH.jpg",
+	 	"name" : "(3) Rentgen - 7",
+	 	"links": [ { "nodeId": "1x", "latitude": -6, "longitude": 50 },
+                   { "nodeId": "2x", "latitude": -4, "longitude": 233 },
+                   { "nodeId": "4x", "latitude": -6, "longitude": -28.5 },
+                   { "nodeId": "6x", "latitude": -8, "longitude": 255 },
+                   { "nodeId": "8x", "latitude": -16, "longitude": 75 } ]
+ 	},
+ 	{
+		"id" : "8x",
+	 	"panorama" : "Rentgen/008CH.jpg",
+	 	"name" : "(3) Rentgen - 8",
+	 	"links": [ { "nodeId": "7x", "latitude": 0, "longitude": 242.5 },
+	 			   { "nodeId": "9x", "latitude": 1, "longitude": 60.5 } ]
+ 	},
+ 	{
+		"id" : "9x",
+	 	"panorama" : "Rentgen/009CH.jpg",
+	 	"name" : "(3) Rentgen - 9",
+	 	"links": [ { "nodeId": "8x", "latitude": -2, "longitude": 77.5 } ]
+ 	}
+]
