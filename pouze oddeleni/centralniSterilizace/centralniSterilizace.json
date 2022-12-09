@@ -1,26 +1,26 @@
 [
 	{
 		"id" : "1cs",
-		"panorama" : "CentralniSterilizace/001.jpg",
+		"panorama" : "001.jpg",
 		"name" : "(3) Centralni sterilizace, Prádelna, Kotelna - podzemí",
 		"links": [  { "nodeId": "2cs", "latitude": 0, "longitude": 307.5 } ]
  	},
 	{
 		"id" : "2cs",
-	 	"panorama" : "CentralniSterilizace/002.jpg",
+	 	"panorama" : "002.jpg",
 	 	"name" : "(3) Centralni sterilizace - 2",
 	 	"links": [ { "nodeId": "1cs", "latitude": 0, "longitude": -11.5 },
 	 	 		   { "nodeId": "3cs", "latitude": 0, "longitude": 305 } ]
  	},
  	{
 		"id" : "3cs",
-	 	"panorama" : "CentralniSterilizace/003.jpg",
+	 	"panorama" : "003.jpg",
 	    "name" : "(3) Centralni sterilizace - 3",
   "markers": [{
         	"id": "3csm1",
          	"latitude": 5,
          	"longitude": 141,
-         	"image":"asserts/kriz.png",
+         	"image":"kriz.png",
          	"height": 100,
          	"width": 100,
          	"tooltip":"Poskytované Služby",
@@ -29,7 +29,7 @@
         	"id": "3csm2",
          	"latitude": 352.5,
          	"longitude": 15,
-         	"image":"asserts/kriz.png",
+         	"image":"kriz.png",
          	"height": 100,
          	"width": 100,
          	"tooltip":"Centrální Sterilizace",
@@ -39,14 +39,14 @@
  	 },
  	{
 		"id" : "4cs",
-	 	"panorama" : "CentralniSterilizace/004.jpg",
+	 	"panorama" : "004.jpg",
 	 	"name" : "(3) Centralni sterilizace - 4",
 	 	"links": [ { "nodeId": "3cs", "latitude": 0, "longitude": 305 },
 	 			   { "nodeId": "5cs", "latitude": 0, "longitude": 230 } ]
  	}, 
  	{ 
 		"id" : "5cs",
-	 	"panorama" : "CentralniSterilizace/005.jpg",
+	 	"panorama" : "005.jpg",
 	 	"name" : "(3) Centralni sterilizace - 5",
 	 	"links": [ { "nodeId": "4cs", "latitude": 0, "longitude": 290 } ]
  	}

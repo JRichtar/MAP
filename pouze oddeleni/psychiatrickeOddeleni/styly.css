@@ -1,0 +1,31 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	color: #86e86b;
+	cursor:help;
+}
+h1{
+	color: #62b7be;
+}
+p{
+	color: 	#a5f3fb;
+}
+h2{
+	color: #5bc5d5;
+}
+ul{
+	color: #a5f3fb;
+}
+footer{
+	font-size: 10px;
+	text-align: center;
+}
+header{
+	align-items: right;
+}
+img{
+	max-width: 100%;
+  	height: auto;
+}

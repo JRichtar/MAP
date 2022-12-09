@@ -1,28 +1,28 @@
 [
 	{
 		"id" : "1o",
-	 	"panorama" : "OckovaciCentrum/001M.jpg",
+	 	"panorama" : "001M.jpg",
 	 	"name" : "(2) Očkovací centrum - 1",
 	 	"links": [ { "nodeId": "2o", "latitude": -12, "longitude": 255 },
                    { "nodeId": "4o", "latitude": -4, "longitude": 205 } ]
  	},
     {
 		"id" : "2o",
-	 	"panorama" : "OckovaciCentrum/002M.jpg",
+	 	"panorama" : "002M.jpg",
 	 	"name" : "(2) Očkovací centrum - 2",
 	 	"links": [ { "nodeId": "1o", "latitude": -28, "longitude": 45 },
                    { "nodeId": "3o", "latitude": -32, "longitude": 220 } ]
  	},
     {
 		"id" : "3o",
-	 	"panorama" : "OckovaciCentrum/003M.jpg",
+	 	"panorama" : "003M.jpg",
 	 	"name" : "(2) Očkovací centrum - 3",
 	 	"links": [ { "nodeId": "2o", "latitude": -18, "longitude": 50 },
                    { "nodeId": "4o", "latitude": -3, "longitude": 110 } ]
  	},
     {
 		"id" : "4o",
-	 	"panorama" : "OckovaciCentrum/004CH.jpg",
+	 	"panorama" : "004CH.jpg",
 	 	"name" : "(2) Očkovací centrum - 4",
 	 	"links": [ { "nodeId": "1o", "latitude": 0, "longitude": 152.5 },
                    { "nodeId": "3o", "latitude": 0, "longitude": 85 },
@@ -30,27 +30,27 @@
  	},
     {
 		"id" : "5o",
-	 	"panorama" : "OckovaciCentrum/005CH.jpg",
+	 	"panorama" : "005CH.jpg",
 	 	"name" : "(2) Očkovací centrum - 5",
 	 	"links": [ { "nodeId": "6o", "latitude": -5, "longitude": 0 },
                    { "nodeId": "4o", "latitude": -12, "longitude": 70 } ]
  	},
     {
 		"id" : "6o",
-	 	"panorama" : "OckovaciCentrum/006CH.jpg",
+	 	"panorama" : "006CH.jpg",
 	 	"name" : "(2) Očkovací centrum - 6",
 	 	"links": [ { "nodeId": "5o", "latitude": -4.5 , "longitude": 255 },
                    { "nodeId": "7o", "latitude": 2, "longitude": -10 } ]
  	},
     {
 		"id" : "7o",
-	 	"panorama" : "OckovaciCentrum/007R.jpg",
+	 	"panorama" : "007R.jpg",
 	 	"name" : "(2) Očkovací centrum - 7",
 	 	"markers": [{
         	"id": "7om1",
          	"latitude": 10,
          	"longitude": 45,
-         	"image":"asserts/kriz.png",
+         	"image":"kriz.png",
          	"height":100,
          	"width":100,
          	"tooltip":"Očkovací místo v Nemocnici Ostrov",
@@ -61,14 +61,14 @@
  	},
     {
 		"id" : "8o",
-	 	"panorama" : "OckovaciCentrum/008V.jpg",
+	 	"panorama" : "008V.jpg",
 	 	"name" : "(2) Očkovací centrum - 8",
 	 	"links": [ { "nodeId": "7o", "latitude": 1, "longitude": 0 },
                    { "nodeId": "9o", "latitude": -3, "longitude": 160 } ]
  	},
     {
 		"id" : "9o",
-	 	"panorama" : "OckovaciCentrum/009V.jpg",
+	 	"panorama" : "009V.jpg",
 	 	"name" : "(2) Očkovací centrum - 9",
 	 	"links": [ { "nodeId": "8o", "latitude": -2, "longitude": 255 } ]
  	}

@@ -6,7 +6,7 @@ var app = {
 	init: function() {
 		app.viewer = new PhotoSphereViewer.Viewer({
 			container: document.querySelector('#viewer'),
-			panorama: 'Stacionar/001V.jpg',
+			panorama: '001V.jpg',
 			plugins: [
 				PhotoSphereViewer.MarkersPlugin,
 				[PhotoSphereViewer.VirtualTourPlugin, {

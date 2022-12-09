@@ -1,33 +1,33 @@
 [
 	{
 		"id" : "1s",
-	 	"panorama" : "Stacionar/001V.jpg",
+	 	"panorama" : "001V.jpg",
 	 	"name" : "(2) Stacionář - 1",
 	 	"links": [ { "nodeId": "2s", "latitude": -3, "longitude": 283 }]
  	},
     {
 		"id" : "2s",
-	 	"panorama" : "Stacionar/002V.jpg",
+	 	"panorama" : "002V.jpg",
 	 	"name" : "(2) Stacionář - 2",
 	 	"links": [ { "nodeId": "1s", "latitude": -1, "longitude": 110 },
                    { "nodeId": "3s", "latitude": -2, "longitude": 326 } ]
  	},
     {
 		"id" : "3s",
-	 	"panorama" : "Stacionar/003V.jpg",
+	 	"panorama" : "003V.jpg",
 	 	"name" : "(2) Stacionář - 3",
 	 	"links": [ { "nodeId": "2s", "latitude": -3, "longitude": 130 },
                    { "nodeId": "4s", "latitude": 3, "longitude": 40 } ]
  	},
     {
 		"id" : "4s",
-	 	"panorama" : "Stacionar/004S.jpg",
+	 	"panorama" : "004S.jpg",
 	 	"name" : "(2) Stacionář - 4",
   "markers": [{
         	"id": "4sm1",
          	"latitude": 10,
          	"longitude": 271,
-         	"image":"asserts/kriz.png",
+         	"image":"kriz.png",
          	"height": 100,
          	"width": 100,
          	"tooltip":"Denní Stacionář",
@@ -37,7 +37,7 @@
  	},
     {
 		"id" : "5s",
-	 	"panorama" : "Stacionar/005S.jpg",
+	 	"panorama" : "005S.jpg",
 	 	"name" : "(2) Stacionář - 5",
 	 	"links": [ { "nodeId": "4s", "latitude": 3, "longitude": 28 } ]
  	}
